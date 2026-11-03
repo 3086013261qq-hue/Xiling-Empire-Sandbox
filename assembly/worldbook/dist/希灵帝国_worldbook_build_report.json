@@ -1,12 +1,15 @@
 {
   "result": "PASS",
-  "formal_entries": 304,
+  "formal_entries": 317,
+  "memory_infra": 4,
   "markers": 14,
-  "worldbook_entries": 318,
-  "timeline_entries": 13,
+  "worldbook_entries": 335,
+  "timeline_mother_volumes": 13,
+  "timeline_entries": 26,
   "timeline_enabled": [
-    "时间线｜第一卷｜帝国苏醒与维迪斯"
+    "时间线｜第一卷（上）｜帝国苏醒与维迪斯"
   ],
+  "triggered_double_recursion": 281,
   "mvu": false,
   "outputs": [
     "assembly/worldbook/dist/希灵帝国_character_book.json",

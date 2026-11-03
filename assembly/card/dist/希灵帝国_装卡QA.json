@@ -3,48 +3,31 @@
   "delivery_format": "JSON_ONLY",
   "json_parse": "PASS",
   "character_card_v3_structure": "PASS",
-  "entries": 318,
+  "entries": 335,
   "counts": {
-    "【记忆相关:起始】": 1,
-    "【记忆相关:结尾】": 1,
-    "【输出规则:起始】": 1,
-    "时间线": 13,
-    "【输出规则:结尾】": 1,
-    "【核心规则:起始】": 1,
     "蓝灯": 10,
-    "【核心规则:结尾】": 1,
-    "【核心设定:起始】": 1,
     "绿灯": 59,
-    "能力": 84,
-    "【核心设定:结尾】": 1,
-    "【主要角色:起始】": 1,
     "角色": 84,
-    "【主要角色:结尾】": 1,
-    "【其他角色:起始】": 1,
-    "【其他角色:结尾】": 1,
-    "【地点:起始】": 1,
-    "地点": 54,
-    "【地点:结尾】": 1
+    "能力": 84,
+    "时间线": 26,
+    "地点": 54
   },
-  "formal_entries": 304,
+  "formal_entries": 317,
   "section_markers": 14,
+  "memory_infra": 4,
   "BLUE10": "constant=true / enabled=true / selective=false",
+  "timeline_mother_volumes": 13,
+  "timeline_entries": 26,
   "timeline_enabled": [
-    "时间线｜第一卷｜帝国苏醒与维迪斯"
+    "时间线｜第一卷（上）｜帝国苏醒与维迪斯"
   ],
+  "timeline_runtime_chapter_evidence": "REMOVED",
+  "triggered_double_recursion": 281,
   "mvu": false,
   "embedded_book_exact_equal": true,
-  "worldbook_sha256": "3a59ebc9a4289dceebd26483ddcec75a2a3d91013b9cd8a699a07d9d93fda0a1",
+  "worldbook_sha256": "dca014cd5d000b8e9f20684953fa60287be732e48861e927df0007557fe5d1ca",
   "files": {
-    "希灵帝国_最终.json": "32f604ac400b49d1cdf127933973d69591041c095f367b44ac17fc7887049f94"
+    "希灵帝国_最终.json": "630b1b51f1e9f7dda82ca99d5448bfa91841c50472b555d1dc03fc27a11f69d9"
   },
-  "real_android_test": "NOT_RUN",
-  "sillytavern_import": {
-    "result": "PASS",
-    "source_commit": "06bde939fb1e9c4c8d8641d810f0a916b5bce127",
-    "json_import_routine": true,
-    "embedded_world_conversion_entries": 318,
-    "content_and_enabled_flags_preserved": true,
-    "method": "Executed unmodified upstream importFromJson/readFromV2/unsetPrivateFields/convertCharacterBook bodies. Input is the final JSON. Upload cleanup, sprites, request context, defaults and avatar output are isolated adapters; avatar metadata captured in memory. No image generated. Android UI test not performed."
-  }
+  "real_android_test": "NOT_RUN_AFTER_FIX"
 }
