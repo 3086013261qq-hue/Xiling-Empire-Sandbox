@@ -51,7 +51,7 @@ vm.runInContext(['unsetPrivateFields', 'readFromV2', 'importFromJson'].map(n => 
     assert.equal(imported.spec, 'chara_card_v3');
     const converted = context.convertCharacterBook(imported.data.character_book);
     const entries = Object.values(converted.entries);
-    assert.equal(entries.length, 318);
+    assert.equal(entries.length, 335);
     for (const original of card.data.character_book.entries) {
         const actual = converted.entries[original.id];
         assert.equal(actual.content, original.content);
@@ -62,14 +62,24 @@ vm.runInContext(['unsetPrivateFields', 'readFromV2', 'importFromJson'].map(n => 
     }
     const blue10 = entries.find(e => e.comment === '蓝灯｜陈俊第一人称叙事视角');
     assert(blue10 && blue10.constant && !blue10.disable && !blue10.selective);
-    assert.deepEqual(entries.filter(e => e.comment.startsWith('时间线｜') && !e.disable).map(e => e.comment), ['时间线｜第一卷｜帝国苏醒与维迪斯']);
+    assert.deepEqual(entries.filter(e => e.comment.startsWith('时间线｜') && !e.disable).map(e => e.comment), ['时间线｜第一卷（上）｜帝国苏醒与维迪斯']);
+    const sourceEntries = card.data.character_book.entries;
+    const triggered = sourceEntries.filter(e => /^(绿灯｜|角色｜|能力｜|地点｜)/.test(e.comment));
+    assert.equal(triggered.length, 281);
+    assert(triggered.every(e => e.extensions.prevent_recursion === true && e.extensions.exclude_recursion === true));
+    const timelines = sourceEntries.filter(e => e.comment.startsWith('时间线｜'));
+    assert.equal(timelines.length, 26);
+    assert(timelines.every(e => (e.content.match(/<world_timeline>/g) || []).length === 1));
+    assert(timelines.every(e => !e.content.includes('【第') && !e.content.includes('【制卡插入锚')));
     const report = JSON.parse(fs.readFileSync(qaPath, 'utf8'));
     report.sillytavern_import = {
         result: 'PASS', source_commit: '06bde939fb1e9c4c8d8641d810f0a916b5bce127',
         json_import_routine: true, embedded_world_conversion_entries: entries.length,
         content_and_enabled_flags_preserved: true,
-        method: 'Executed unmodified upstream importFromJson/readFromV2/unsetPrivateFields/convertCharacterBook bodies. Input is the final JSON. Upload cleanup, sprites, request context, defaults and avatar output are isolated adapters; avatar metadata captured in memory. No image generated. Android UI test not performed.',
+        split_timeline_entries_preserved: true,
+        triggered_double_recursion_preserved: true,
+        method: 'Executed unmodified upstream importFromJson/readFromV2/unsetPrivateFields/convertCharacterBook bodies. Input is the final JSON. Avatar output is isolated in memory. Android UI test must still be performed after this rebuild.',
     };
     fs.writeFileSync(qaPath, JSON.stringify(report, null, 2) + '\n');
-    console.log('SillyTavern JSON import and 318-entry conversion: PASS');
+    console.log('SillyTavern JSON import and 335-entry conversion: PASS');
 })().catch(error => { console.error(error); process.exitCode = 1; });

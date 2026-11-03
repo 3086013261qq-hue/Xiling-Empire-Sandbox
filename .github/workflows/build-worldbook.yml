@@ -7,6 +7,8 @@ on:
       - 'assembly/worldbook/build_character_book.py'
       - 'assembly/worldbook/build_character_book_v1_1.py'
       - 'assembly/worldbook/trigger_aliases.json'
+      - 'assembly/card/build_final_card.py'
+      - 'assembly/card/qa_json_import.cjs'
       - 'worldbook/settings/**'
       - 'worldbook/characters/**'
       - 'worldbook/abilities/**'
@@ -32,45 +34,88 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Build character_book
+      - name: Build fullstack worldbook
         shell: bash
         run: |
           set -euo pipefail
           mkdir -p assembly/worldbook/dist
-          python assembly/worldbook/build_character_book_v1_1.py | tee assembly/worldbook/dist/希灵帝国_worldbook_build_report.json
+          python assembly/worldbook/build_character_book.py | tee assembly/worldbook/dist/希灵帝国_worldbook_build_report.json
 
-      - name: Validate generated JSON
+      - name: Build final JSON card
+        shell: bash
+        run: |
+          set -euo pipefail
+          python assembly/card/build_final_card.py
+          rm -f assembly/card/dist/希灵帝国_最终.png
+
+      - name: Validate generated worldbook and card
         shell: bash
         run: |
           python - <<'PY'
-          import json
+          import json, re
           from pathlib import Path
-          p = Path('assembly/worldbook/dist/希灵帝国_character_book.json')
-          book = json.loads(p.read_text(encoding='utf-8'))
+
+          book_path = Path('assembly/worldbook/dist/希灵帝国_character_book.json')
+          card_path = Path('assembly/card/dist/希灵帝国_最终.json')
+          book = json.loads(book_path.read_text(encoding='utf-8'))
+          card = json.loads(card_path.read_text(encoding='utf-8'))
+          entries = book['entries']
+
           assert book['name'] == '希灵帝国'
-          assert len(book['entries']) == 318, len(book['entries'])
-          assert sum(1 for e in book['entries'] if e['comment'].startswith('时间线｜')) == 13
-          assert sum(1 for e in book['entries'] if e['comment'].startswith('时间线｜') and e['enabled']) == 1
-          blue10 = [e for e in book['entries'] if e['comment'] == '蓝灯｜陈俊第一人称叙事视角']
+          assert len(entries) == 335, len(entries)
+          assert card['spec'] == 'chara_card_v3' and card['spec_version'] == '3.0'
+          assert card['data']['character_book'] == book
+
+          def count(prefix):
+              return sum(1 for e in entries if e['comment'].startswith(prefix))
+
+          assert count('蓝灯｜') == 10
+          assert count('绿灯｜') == 59
+          assert count('角色｜') == 84
+          assert count('能力｜') == 84
+          assert count('时间线｜') == 26
+          assert count('地点｜') == 54
+
+          timelines = [e for e in entries if e['comment'].startswith('时间线｜')]
+          enabled = [e['comment'] for e in timelines if e['enabled']]
+          assert enabled == ['时间线｜第一卷（上）｜帝国苏醒与维迪斯'], enabled
+          for e in timelines:
+              c = e['content']
+              assert c.count('<world_timeline>') == 1
+              assert c.count('</world_timeline>') == 1
+              assert '【第' not in c
+              assert '【制卡插入锚' not in c
+              assert '\n说明：' not in c
+              assert len(re.findall(r'^-事件[^:：]+[:：]\s*沙盒模式\b', c, re.M)) == 1
+
+          memory = {'🗑️清空局部变量(别关)', '日常记忆存储', '重大记忆存储', '玩家身世背景'}
+          assert memory.issubset({e['comment'] for e in entries})
+
+          triggered = [e for e in entries if e['comment'].startswith(('绿灯｜','角色｜','能力｜','地点｜'))]
+          assert len(triggered) == 281
+          assert all(e['extensions']['prevent_recursion'] is True for e in triggered)
+          assert all(e['extensions']['exclude_recursion'] is True for e in triggered)
+
+          blue10 = [e for e in entries if e['comment'] == '蓝灯｜陈俊第一人称叙事视角']
           assert len(blue10) == 1
           assert blue10[0]['enabled'] is True and blue10[0]['constant'] is True and blue10[0]['selective'] is False
+
           bad = ('[initvar]', '变量初始化', '变量列表', '变量更新规则', 'UpdateVariable', 'MagVarUpdate')
-          assert not any(any(x in e['comment'] for x in bad) for e in book['entries'])
-          assert all(e['extensions']['prevent_recursion'] is False for e in book['entries'])
-          assert all(e['extensions']['exclude_recursion'] is False for e in book['entries'])
-          print('PASS: 318 entries / BLUE10 constant / 13 timeline / 1 enabled timeline / NO MVU / ordinary recursion policy')
+          assert not any(any(x in e['comment'] for x in bad) for e in entries)
+          assert not Path('assembly/card/dist/希灵帝国_最终.png').exists()
+          print('PASS: 335 entries / 26 split timeline segments / clean timeline runtime / 4 memory infra / triggered double recursion / BLUE10 / NO MVU / JSON only')
           PY
 
-      - name: Commit generated worldbook
+      - name: Commit generated worldbook and final JSON
         shell: bash
         run: |
           set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add assembly/worldbook/dist/
+          git add -A assembly/worldbook/dist/ assembly/card/dist/
           if git diff --cached --quiet; then
             echo 'Generated outputs unchanged.'
             exit 0
           fi
-          git commit -m 'worldbook: generate fullstack no-MVU character_book [skip ci]'
+          git commit -m 'worldbook: rebuild fullstack split-timeline JSON [skip ci]'
           git push origin HEAD:main
