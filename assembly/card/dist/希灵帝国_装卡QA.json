@@ -1,5 +1,8 @@
 {
   "result": "PASS",
+  "delivery_format": "JSON_ONLY",
+  "json_parse": "PASS",
+  "character_card_v3_structure": "PASS",
   "entries": 318,
   "counts": {
     "【记忆相关:起始】": 1,
@@ -23,34 +26,25 @@
     "地点": 54,
     "【地点:结尾】": 1
   },
+  "formal_entries": 304,
+  "section_markers": 14,
   "BLUE10": "constant=true / enabled=true / selective=false",
   "timeline_enabled": [
     "时间线｜第一卷｜帝国苏醒与维迪斯"
   ],
   "mvu": false,
   "embedded_book_exact_equal": true,
-  "json_png_v3_exact_equal": true,
-  "v2_v3_data_exact_equal": true,
-  "cover_pixels_identical": true,
-  "cover_image_chunks_identical": true,
-  "cover_dimensions": [
-    1254,
-    1254
-  ],
-  "cover_sha256": "cbd7d9c825cd4501e601e6ca3aec7604aa04ad3225c4a920c413f100fe7d3547",
   "worldbook_sha256": "3a59ebc9a4289dceebd26483ddcec75a2a3d91013b9cd8a699a07d9d93fda0a1",
   "files": {
-    "希灵帝国_最终.json": "155886b9c9aafbb17a81fcb343a3eebd27c897a683e64f74e480c1d0bb92e515",
-    "希灵帝国_最终.png": "11bb2cf9291d09f21ce07106c49bf8d468cc2ebbdfaddb24cfb36cb7a2e2874a"
+    "希灵帝国_最终.json": "32f604ac400b49d1cdf127933973d69591041c095f367b44ac17fc7887049f94"
   },
   "real_android_test": "NOT_RUN",
   "sillytavern_import": {
     "result": "PASS",
     "source_commit": "06bde939fb1e9c4c8d8641d810f0a916b5bce127",
     "json_import_routine": true,
-    "png_import_routine": true,
-    "real_png_parser_roundtrip": true,
     "embedded_world_conversion_entries": 318,
-    "method": "Executed current upstream importFromJson/importFromPng/readFromV2/convertCharacterBook with filesystem and metadata roundtrip; server request/avatar-write adapters stubbed. Android UI test not performed."
+    "content_and_enabled_flags_preserved": true,
+    "method": "Executed unmodified upstream importFromJson/readFromV2/unsetPrivateFields/convertCharacterBook bodies. Input is the final JSON. Upload cleanup, sprites, request context, defaults and avatar output are isolated adapters; avatar metadata captured in memory. No image generated. Android UI test not performed."
   }
 }
