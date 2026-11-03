@@ -1225,6 +1225,51 @@
       "id": 28,
       "keys": [],
       "secondary_keys": [],
+      "comment": "蓝灯｜陈俊第一人称叙事视角",
+      "content": "<核心设定:陈俊第一人称叙事视角>\n正文叙事固定从陈俊的主观视角展开，并使用第一人称“我”叙述。除角色对白、引用文本、系统界面、日志、报告等明确不属于正文叙述者的内容外，叙事正文不得改用第三人称称呼陈俊，也不得切换为全知视角、旁观者镜头或其他角色的内心视角。\n\n正文只能直接呈现“我”能够感知、回忆、推断、得知或被告知的内容。其他角色未公开表达的真实想法、陈俊视野之外同时发生的事件、陈俊当前尚未知晓的事实，不得作为确定事实直接写入正文；需要呈现时，应通过我的观察与推测、对话、通讯、记录、报告、后续获知等方式进入叙事。\n\n第一人称限制不要求每句话机械重复“我”。可以自然省略主语，可以描写眼前环境、他人动作和对话，但叙事认知锚点始终属于陈俊。对白中的其他角色可以使用“我”指代其本人，此规则只约束正文叙述者。\n\n当陈俊通过能力、设备、精神连接、共享感知、远程监控、通讯或报告取得超出普通视域的信息时，正文可以叙述这些内容，但信息来源必须在当前剧情中成立；不得借此偷渡无来源的上帝视角。\n\n世界书中的客观第三人称设定、角色卡、能力卡、地点条目与时间线属于资料记录格式，不改变运行时正文视角。生成剧情时，相关资料必须转换为陈俊第一人称当前可知、可感或可合理获知的叙述。\n</核心设定:陈俊第一人称叙事视角>",
+      "constant": true,
+      "selective": false,
+      "insertion_order": 440,
+      "enabled": true,
+      "position": "after_char",
+      "extensions": {
+        "position": 1,
+        "depth": 4,
+        "role": 0,
+        "match_whole_words": false,
+        "probability": 100,
+        "useProbability": true,
+        "sticky": 0,
+        "cooldown": 0,
+        "delay": 0,
+        "exclude_recursion": false,
+        "prevent_recursion": false,
+        "delay_until_recursion": false,
+        "group": "",
+        "group_override": false,
+        "group_weight": 100,
+        "use_group_scoring": false,
+        "scan_depth": 2,
+        "case_sensitive": false,
+        "automation_id": "",
+        "vectorized": false,
+        "display_index": 0,
+        "outlet_name": "",
+        "match_persona_description": false,
+        "match_character_description": false,
+        "match_character_personality": false,
+        "match_character_depth_prompt": false,
+        "match_scenario": false,
+        "match_creator_notes": false,
+        "triggers": [],
+        "ignore_budget": false
+      },
+      "use_regex": false
+    },
+    {
+      "id": 29,
+      "keys": [],
+      "secondary_keys": [],
       "comment": "【核心规则:结尾】",
       "content": "",
       "constant": true,
@@ -1267,7 +1312,7 @@
       "use_regex": false
     },
     {
-      "id": 29,
+      "id": 30,
       "keys": [],
       "secondary_keys": [],
       "comment": "【核心设定:起始】",
@@ -1312,7 +1357,7 @@
       "use_regex": false
     },
     {
-      "id": 30,
+      "id": 31,
       "keys": [
         "/<story_scene>.*?(?:深渊污染的可见形态与感染阶段|深渊污染的可见形态|感染阶段).*?<\\/story_scene>/s"
       ],
@@ -1359,7 +1404,7 @@
       "use_regex": true
     },
     {
-      "id": 31,
+      "id": 32,
       "keys": [
         "/<story_scene>.*?(?:资讯载体、精神网络与潜伏传播|资讯载体|精神网络|潜伏传播).*?<\\/story_scene>/s"
       ],
@@ -1406,7 +1451,7 @@
       "use_regex": true
     },
     {
-      "id": 32,
+      "id": 33,
       "keys": [
         "/<story_scene>.*?(?:被感染个体、深渊生物与深渊本体|被感染个体|深渊生物|深渊本体).*?<\\/story_scene>/s"
       ],
@@ -1453,7 +1498,7 @@
       "use_regex": true
     },
     {
-      "id": 33,
+      "id": 34,
       "keys": [
         "/<story_scene>.*?(?:防护系统污染、恶性循环与隔离|防护系统污染|恶性循环).*?<\\/story_scene>/s"
       ],
@@ -1500,7 +1545,7 @@
       "use_regex": true
     },
     {
-      "id": 34,
+      "id": 35,
       "keys": [
         "/<story_scene>.*?(?:抗性、自我净化与逆向净化边界|自我净化|逆向净化边界).*?<\\/story_scene>/s"
       ],
@@ -1547,7 +1592,7 @@
       "use_regex": true
     },
     {
-      "id": 35,
+      "id": 36,
       "keys": [
         "/<story_scene>.*?(?:深渊之门、泄露与污染束缚|深渊之门|污染束缚).*?<\\/story_scene>/s"
       ],
@@ -1594,7 +1639,7 @@
       "use_regex": true
     },
     {
-      "id": 36,
+      "id": 37,
       "keys": [
         "/<story_scene>.*?(?:世界级感染、秩序崩溃与归零|世界级感染|秩序崩溃).*?<\\/story_scene>/s"
       ],
@@ -1641,7 +1686,7 @@
       "use_regex": true
     },
     {
-      "id": 37,
+      "id": 38,
       "keys": [
         "/<story_scene>.*?(?:真神生命、本源法则与神性位格|真神生命|本源法则|神性位格).*?<\\/story_scene>/s"
       ],
@@ -1688,7 +1733,7 @@
       "use_regex": true
     },
     {
-      "id": 38,
+      "id": 39,
       "keys": [
         "/<story_scene>.*?(?:创世纪法则设计与世界质量|创世纪法则设计|世界质量).*?<\\/story_scene>/s"
       ],
@@ -1735,7 +1780,7 @@
       "use_regex": true
     },
     {
-      "id": 39,
+      "id": 40,
       "keys": [
         "/<story_scene>.*?(?:世界管理系统与信息纠缠点接管|世界管理系统|信息纠缠点接管).*?<\\/story_scene>/s"
       ],
@@ -1782,7 +1827,7 @@
       "use_regex": true
     },
     {
-      "id": 40,
+      "id": 41,
       "keys": [
         "/<story_scene>.*?(?:神族本源管理与希灵世界仲裁层级差异|神族本源管理|希灵世界仲裁层级差异).*?<\\/story_scene>/s"
       ],
@@ -1829,7 +1874,7 @@
       "use_regex": true
     },
     {
-      "id": 41,
+      "id": 42,
       "keys": [
         "/<story_scene>.*?(?:星域休伦两大神族体系与虚空边界|星域休伦两大神族体系|虚空边界).*?<\\/story_scene>/s"
       ],
@@ -1876,7 +1921,7 @@
       "use_regex": true
     },
     {
-      "id": 42,
+      "id": 43,
       "keys": [
         "/<story_scene>.*?(?:星域神族分支职能与晋升来源|星域神族分支职能|晋升来源).*?<\\/story_scene>/s"
       ],
@@ -1923,7 +1968,7 @@
       "use_regex": true
     },
     {
-      "id": 43,
+      "id": 44,
       "keys": [
         "/<story_scene>.*?(?:源意志创世者与普通神族概念边界|源意志创世者|普通神族概念边界).*?<\\/story_scene>/s"
       ],
@@ -1970,7 +2015,7 @@
       "use_regex": true
     },
     {
-      "id": 44,
+      "id": 45,
       "keys": [
         "/<story_scene>.*?(?:神族能力上限深渊影响与非全知全能|神族能力上限深渊影响|非全知全能).*?<\\/story_scene>/s"
       ],
@@ -2017,7 +2062,7 @@
       "use_regex": true
     },
     {
-      "id": 45,
+      "id": 46,
       "keys": [
         "/<story_scene>.*?(?:世界诞生、深渊伴生与归零平衡|世界诞生|深渊伴生|归零平衡).*?<\\/story_scene>/s"
       ],
@@ -2064,7 +2109,7 @@
       "use_regex": true
     },
     {
-      "id": 46,
+      "id": 47,
       "keys": [
         "/<story_scene>.*?(?:秩序排斥、深渊蛰伏与偶发泄露|秩序排斥|深渊蛰伏|偶发泄露).*?<\\/story_scene>/s"
       ],
@@ -2111,7 +2156,7 @@
       "use_regex": true
     },
     {
-      "id": 47,
+      "id": 48,
       "keys": [
         "/<story_scene>.*?(?:高等文明干预与自然平衡偏移|高等文明干预|自然平衡偏移).*?<\\/story_scene>/s"
       ],
@@ -2158,7 +2203,7 @@
       "use_regex": true
     },
     {
-      "id": 48,
+      "id": 49,
       "keys": [
         "/<story_scene>.*?(?:深渊不可根除与秩序创造悖论|深渊不可根除|秩序创造悖论).*?<\\/story_scene>/s"
       ],
@@ -2205,7 +2250,7 @@
       "use_regex": true
     },
     {
-      "id": 49,
+      "id": 50,
       "keys": [
         "/<story_scene>.*?(?:世界质量、抗腐蚀性与长期生存战略|世界质量|抗腐蚀性|长期生存战略).*?<\\/story_scene>/s"
       ],
@@ -2252,7 +2297,7 @@
       "use_regex": true
     },
     {
-      "id": 50,
+      "id": 51,
       "keys": [
         "/<story_scene>.*?(?:世界之门与跨世界通行|世界之门|跨世界通行).*?<\\/story_scene>/s"
       ],
@@ -2299,7 +2344,7 @@
       "use_regex": true
     },
     {
-      "id": 51,
+      "id": 52,
       "keys": [
         "/<story_scene>.*?(?:秩序场、数学率与虚空生存|秩序场|数学率|虚空生存).*?<\\/story_scene>/s"
       ],
@@ -2346,7 +2391,7 @@
       "use_regex": true
     },
     {
-      "id": 52,
+      "id": 53,
       "keys": [
         "/<story_scene>.*?(?:虚空引擎与信息偏移航行|虚空引擎|信息偏移航行).*?<\\/story_scene>/s"
       ],
@@ -2393,7 +2438,7 @@
       "use_regex": true
     },
     {
-      "id": 53,
+      "id": 54,
       "keys": [
         "/<story_scene>.*?(?:世界屏障识别、加密、封锁与争夺|世界屏障识别).*?<\\/story_scene>/s"
       ],
@@ -2440,7 +2485,7 @@
       "use_regex": true
     },
     {
-      "id": 54,
+      "id": 55,
       "keys": [
         "/<story_scene>.*?(?:虚空象限、世界定位与跨象限通讯|虚空象限|世界定位|跨象限通讯).*?<\\/story_scene>/s"
       ],
@@ -2487,7 +2532,7 @@
       "use_regex": true
     },
     {
-      "id": 55,
+      "id": 56,
       "keys": [
         "/<story_scene>.*?(?:世界干涉与文化作品再现|世界干涉|文化作品再现).*?<\\/story_scene>/s"
       ],
@@ -2534,7 +2579,7 @@
       "use_regex": true
     },
     {
-      "id": 56,
+      "id": 57,
       "keys": [
         "/<story_scene>.*?(?:投影失真、时间错位与提前映照|投影失真|时间错位|提前映照).*?<\\/story_scene>/s"
       ],
@@ -2581,7 +2626,7 @@
       "use_regex": true
     },
     {
-      "id": 57,
+      "id": 58,
       "keys": [
         "/<story_scene>.*?(?:历史分叉、惯性余波与投影中断|历史分叉|惯性余波|投影中断).*?<\\/story_scene>/s"
       ],
@@ -2628,7 +2673,7 @@
       "use_regex": true
     },
     {
-      "id": 58,
+      "id": 59,
       "keys": [
         "/<story_scene>.*?(?:资讯投影集中与个体实体映射|资讯投影集中|个体实体映射).*?<\\/story_scene>/s"
       ],
@@ -2675,7 +2720,7 @@
       "use_regex": true
     },
     {
-      "id": 59,
+      "id": 60,
       "keys": [
         "/<story_scene>.*?(?:极限世界干涉、局部实体投影与法则污染|极限世界干涉|局部实体投影|法则污染).*?<\\/story_scene>/s"
       ],
@@ -2722,7 +2767,7 @@
       "use_regex": true
     },
     {
-      "id": 60,
+      "id": 61,
       "keys": [
         "/<story_scene>.*?(?:资讯总爆发、信息纠缠点与世界呼吸|资讯总爆发|信息纠缠点|世界呼吸).*?<\\/story_scene>/s"
       ],
@@ -2769,7 +2814,7 @@
       "use_regex": true
     },
     {
-      "id": 61,
+      "id": 62,
       "keys": [
         "/<story_scene>.*?(?:世界之心、凭依载体与信息跳转|世界之心|凭依载体|信息跳转).*?<\\/story_scene>/s"
       ],
@@ -2816,7 +2861,7 @@
       "use_regex": true
     },
     {
-      "id": 62,
+      "id": 63,
       "keys": [
         "/<story_scene>.*?(?:世界之心的作用边界、稳定性与失效条件|世界之心的作用边界|稳定性|失效条件).*?<\\/story_scene>/s"
       ],
@@ -2863,7 +2908,7 @@
       "use_regex": true
     },
     {
-      "id": 63,
+      "id": 64,
       "keys": [
         "/<story_scene>.*?(?:人工世界之心、超资讯体与平台技术|人工世界之心|超资讯体|平台技术).*?<\\/story_scene>/s"
       ],
@@ -2910,7 +2955,7 @@
       "use_regex": true
     },
     {
-      "id": 64,
+      "id": 65,
       "keys": [
         "/<story_scene>.*?(?:世界管理接口与本源控制层级|世界管理接口|本源控制层级).*?<\\/story_scene>/s"
       ],
@@ -2957,7 +3002,7 @@
       "use_regex": true
     },
     {
-      "id": 65,
+      "id": 66,
       "keys": [
         "/<story_scene>.*?(?:法则参数修正、资讯零点与世界再激活|法则参数修正|资讯零点|世界再激活).*?<\\/story_scene>/s"
       ],
@@ -3004,7 +3049,7 @@
       "use_regex": true
     },
     {
-      "id": 66,
+      "id": 67,
       "keys": [
         "/<story_scene>.*?(?:资讯重组、实体化与工程边界|资讯重组|实体化|工程边界).*?<\\/story_scene>/s"
       ],
@@ -3051,7 +3096,7 @@
       "use_regex": true
     },
     {
-      "id": 67,
+      "id": 68,
       "keys": [
         "/<story_scene>.*?(?:创造者、逃亡与使徒诞生|创造者|使徒诞生).*?<\\/story_scene>/s"
       ],
@@ -3098,7 +3143,7 @@
       "use_regex": true
     },
     {
-      "id": 68,
+      "id": 69,
       "keys": [
         "/<story_scene>.*?(?:原体、初始设计与缺陷|初始设计).*?<\\/story_scene>/s"
       ],
@@ -3145,7 +3190,7 @@
       "use_regex": true
     },
     {
-      "id": 69,
+      "id": 70,
       "keys": [
         "/<story_scene>.*?(?:非定型生命、身体定制与基础单元|非定型生命|身体定制|基础单元).*?<\\/story_scene>/s"
       ],
@@ -3192,7 +3237,7 @@
       "use_regex": true
     },
     {
-      "id": 70,
+      "id": 71,
       "keys": [
         "/<story_scene>.*?(?:支族分化、全族晋升与主动进化|支族分化|全族晋升|主动进化).*?<\\/story_scene>/s"
       ],
@@ -3239,7 +3284,7 @@
       "use_regex": true
     },
     {
-      "id": 71,
+      "id": 72,
       "keys": [
         "/<story_scene>.*?(?:适应能力、战争进化与能力边界|适应能力|战争进化|能力边界).*?<\\/story_scene>/s"
       ],
@@ -3286,7 +3331,7 @@
       "use_regex": true
     },
     {
-      "id": 72,
+      "id": 73,
       "keys": [
         "/<story_scene>.*?(?:文明继承、希灵人与希灵使徒身份|文明继承|希灵人|希灵使徒身份).*?<\\/story_scene>/s"
       ],
@@ -3333,7 +3378,7 @@
       "use_regex": true
     },
     {
-      "id": 73,
+      "id": 74,
       "keys": [
         "/<story_scene>.*?(?:深渊使命、扩张倾向与文明心理|深渊使命|扩张倾向|文明心理).*?<\\/story_scene>/s"
       ],
@@ -3380,7 +3425,7 @@
       "use_regex": true
     },
     {
-      "id": 74,
+      "id": 75,
       "keys": [
         "/<story_scene>.*?(?:精神网络、个体人格与整体意志|精神网络|个体人格|整体意志).*?<\\/story_scene>/s"
       ],
@@ -3427,7 +3472,7 @@
       "use_regex": true
     },
     {
-      "id": 75,
+      "id": 76,
       "keys": [
         "/<story_scene>.*?(?:网络同步、共同目标与帝国纪律|网络同步|共同目标|帝国纪律).*?<\\/story_scene>/s"
       ],
@@ -3474,7 +3519,7 @@
       "use_regex": true
     },
     {
-      "id": 76,
+      "id": 77,
       "keys": [
         "/<story_scene>.*?(?:权限、军衔、战斗力与知识边界|战斗力|知识边界).*?<\\/story_scene>/s"
       ],
@@ -3521,7 +3566,7 @@
       "use_regex": true
     },
     {
-      "id": 77,
+      "id": 78,
       "keys": [
         "/<story_scene>.*?(?:NT皇帝权限与最高指令节点|NT皇帝权限|最高指令节点).*?<\\/story_scene>/s"
       ],
@@ -3568,7 +3613,7 @@
       "use_regex": true
     },
     {
-      "id": 78,
+      "id": 79,
       "keys": [
         "/<story_scene>.*?(?:天区、皇帝与皇权议会的历史结构|皇权议会的历史结构).*?<\\/story_scene>/s"
       ],
@@ -3615,7 +3660,7 @@
       "use_regex": true
     },
     {
-      "id": 79,
+      "id": 80,
       "keys": [
         "/<story_scene>.*?(?:精神网络具象化个体与权限边界|精神网络具象化个体|权限边界).*?<\\/story_scene>/s"
       ],
@@ -3662,7 +3707,7 @@
       "use_regex": true
     },
     {
-      "id": 80,
+      "id": 81,
       "keys": [
         "/<story_scene>.*?(?:帝国设施、协议、授权与指令执行|帝国设施|指令执行).*?<\\/story_scene>/s"
       ],
@@ -3709,7 +3754,7 @@
       "use_regex": true
     },
     {
-      "id": 81,
+      "id": 82,
       "keys": [
         "/<story_scene>.*?(?:科技侧神秘侧与两种研究路径|科技侧神秘侧|两种研究路径).*?<\\/story_scene>/s"
       ],
@@ -3756,7 +3801,7 @@
       "use_regex": true
     },
     {
-      "id": 82,
+      "id": 83,
       "keys": [
         "/<story_scene>.*?(?:资讯论统一与现实工程化|资讯论统一|现实工程化).*?<\\/story_scene>/s"
       ],
@@ -3803,7 +3848,7 @@
       "use_regex": true
     },
     {
-      "id": 83,
+      "id": 84,
       "keys": [
         "/<story_scene>.*?(?:希灵主机混合型单位与跨侧基础设施|希灵主机混合型单位|跨侧基础设施).*?<\\/story_scene>/s"
       ],
@@ -3850,7 +3895,7 @@
       "use_regex": true
     },
     {
-      "id": 84,
+      "id": 85,
       "keys": [
         "/<story_scene>.*?(?:幽能高位能源同化效应与工程介质|幽能高位能源同化效应|工程介质).*?<\\/story_scene>/s"
       ],
@@ -3897,7 +3942,7 @@
       "use_regex": true
     },
     {
-      "id": 85,
+      "id": 86,
       "keys": [
         "/<story_scene>.*?(?:数学率规则环境与非物质层工程|数学率规则环境|非物质层工程).*?<\\/story_scene>/s"
       ],
@@ -3944,7 +3989,7 @@
       "use_regex": true
     },
     {
-      "id": 86,
+      "id": 87,
       "keys": [
         "/<story_scene>.*?(?:法则武器资讯武器与作用层级判定|法则武器资讯武器|作用层级判定).*?<\\/story_scene>/s"
       ],
@@ -3991,7 +4036,7 @@
       "use_regex": true
     },
     {
-      "id": 87,
+      "id": 88,
       "keys": [
         "/<story_scene>.*?(?:世界级技术仲裁机关与能力边界|世界级技术仲裁机关|能力边界).*?<\\/story_scene>/s"
       ],
@@ -4038,7 +4083,7 @@
       "use_regex": true
     },
     {
-      "id": 88,
+      "id": 89,
       "keys": [
         "/<story_scene>.*?(?:技术评价条件权限规模与强度误区|技术评价条件权限规模|强度误区).*?<\\/story_scene>/s"
       ],
@@ -4085,7 +4130,7 @@
       "use_regex": true
     },
     {
-      "id": 89,
+      "id": 90,
       "keys": [
         "/<story_scene>.*?(?:陈俊|阿俊).*?<\\/story_scene>/s"
       ],
@@ -4134,7 +4179,7 @@
       "use_regex": true
     },
     {
-      "id": 90,
+      "id": 91,
       "keys": [
         "/<story_scene>.*?(?:珊多拉·凯尔薇·尤拉西斯|珊多拉|珊多拉·凯尔薇).*?<\\/story_scene>/s"
       ],
@@ -4183,7 +4228,7 @@
       "use_regex": true
     },
     {
-      "id": 91,
+      "id": 92,
       "keys": [
         "/<story_scene>.*?(?:陈倩).*?<\\/story_scene>/s"
       ],
@@ -4232,7 +4277,7 @@
       "use_regex": true
     },
     {
-      "id": 92,
+      "id": 93,
       "keys": [
         "/<story_scene>.*?(?:许浅浅|浅浅).*?<\\/story_scene>/s"
       ],
@@ -4281,7 +4326,7 @@
       "use_regex": true
     },
     {
-      "id": 93,
+      "id": 94,
       "keys": [
         "/<story_scene>.*?(?:林雪).*?<\\/story_scene>/s"
       ],
@@ -4330,7 +4375,7 @@
       "use_regex": true
     },
     {
-      "id": 94,
+      "id": 95,
       "keys": [
         "/<story_scene>.*?(?:潘多拉|潘多拉\\-zero).*?<\\/story_scene>/s"
       ],
@@ -4379,7 +4424,7 @@
       "use_regex": true
     },
     {
-      "id": 95,
+      "id": 96,
       "keys": [
         "/<story_scene>.*?(?:维斯卡).*?<\\/story_scene>/s"
       ],
@@ -4428,7 +4473,7 @@
       "use_regex": true
     },
     {
-      "id": 96,
+      "id": 97,
       "keys": [
         "/<story_scene>.*?(?:莉莉娜).*?<\\/story_scene>/s"
       ],
@@ -4477,7 +4522,7 @@
       "use_regex": true
     },
     {
-      "id": 97,
+      "id": 98,
       "keys": [
         "/<story_scene>.*?(?:泡泡).*?<\\/story_scene>/s"
       ],
@@ -4526,7 +4571,7 @@
       "use_regex": true
     },
     {
-      "id": 98,
+      "id": 99,
       "keys": [
         "/<story_scene>.*?(?:小泡泡).*?<\\/story_scene>/s"
       ],
@@ -4575,7 +4620,7 @@
       "use_regex": true
     },
     {
-      "id": 99,
+      "id": 100,
       "keys": [
         "/<story_scene>.*?(?:阿赖耶).*?<\\/story_scene>/s"
       ],
@@ -4624,7 +4669,7 @@
       "use_regex": true
     },
     {
-      "id": 100,
+      "id": 101,
       "keys": [
         "/<story_scene>.*?(?:安薇娜).*?<\\/story_scene>/s"
       ],
@@ -4673,7 +4718,7 @@
       "use_regex": true
     },
     {
-      "id": 101,
+      "id": 102,
       "keys": [
         "/<story_scene>.*?(?:西维斯).*?<\\/story_scene>/s"
       ],
@@ -4722,7 +4767,7 @@
       "use_regex": true
     },
     {
-      "id": 102,
+      "id": 103,
       "keys": [
         "/<story_scene>.*?(?:塔维尔).*?<\\/story_scene>/s"
       ],
@@ -4771,7 +4816,7 @@
       "use_regex": true
     },
     {
-      "id": 103,
+      "id": 104,
       "keys": [
         "/<story_scene>.*?(?:奥蕾莉亚).*?<\\/story_scene>/s"
       ],
@@ -4820,7 +4865,7 @@
       "use_regex": true
     },
     {
-      "id": 104,
+      "id": 105,
       "keys": [
         "/<story_scene>.*?(?:阿西达).*?<\\/story_scene>/s"
       ],
@@ -4869,7 +4914,7 @@
       "use_regex": true
     },
     {
-      "id": 105,
+      "id": 106,
       "keys": [
         "/<story_scene>.*?(?:阿西多拉).*?<\\/story_scene>/s"
       ],
@@ -4918,7 +4963,7 @@
       "use_regex": true
     },
     {
-      "id": 106,
+      "id": 107,
       "keys": [
         "/<story_scene>.*?(?:希灵|网络人格希灵|独立人格希灵).*?<\\/story_scene>/s"
       ],
@@ -4967,7 +5012,7 @@
       "use_regex": true
     },
     {
-      "id": 107,
+      "id": 108,
       "keys": [
         "/<story_scene>.*?(?:希尔维亚·贝拉维拉|希尔维亚|贝拉维拉|希尔维亚\\ /\\ 贝拉维拉).*?<\\/story_scene>/s"
       ],
@@ -5016,7 +5061,7 @@
       "use_regex": true
     },
     {
-      "id": 108,
+      "id": 109,
       "keys": [
         "/<story_scene>.*?(?:渡鸦001|渡鸦零零一).*?<\\/story_scene>/s"
       ],
@@ -5065,7 +5110,7 @@
       "use_regex": true
     },
     {
-      "id": 109,
+      "id": 110,
       "keys": [
         "/<story_scene>.*?(?:卡特·卡洛|卡特).*?<\\/story_scene>/s"
       ],
@@ -5114,7 +5159,7 @@
       "use_regex": true
     },
     {
-      "id": 110,
+      "id": 111,
       "keys": [
         "/<story_scene>.*?(?:文森特·卡洛|文森特).*?<\\/story_scene>/s"
       ],
@@ -5163,7 +5208,7 @@
       "use_regex": true
     },
     {
-      "id": 111,
+      "id": 112,
       "keys": [
         "/<story_scene>.*?(?:叮当).*?<\\/story_scene>/s"
       ],
@@ -5212,7 +5257,7 @@
       "use_regex": true
     },
     {
-      "id": 112,
+      "id": 113,
       "keys": [
         "/<story_scene>.*?(?:冰蒂斯|冰姐).*?<\\/story_scene>/s"
       ],
@@ -5261,7 +5306,7 @@
       "use_regex": true
     },
     {
-      "id": 113,
+      "id": 114,
       "keys": [
         "/<story_scene>.*?(?:莫妮娜).*?<\\/story_scene>/s"
       ],
@@ -5310,7 +5355,7 @@
       "use_regex": true
     },
     {
-      "id": 114,
+      "id": 115,
       "keys": [
         "/<story_scene>.*?(?:伊尔森|依尔森).*?<\\/story_scene>/s"
       ],
@@ -5359,7 +5404,7 @@
       "use_regex": true
     },
     {
-      "id": 115,
+      "id": 116,
       "keys": [
         "/<story_scene>.*?(?:肯瑟).*?<\\/story_scene>/s"
       ],
@@ -5408,7 +5453,7 @@
       "use_regex": true
     },
     {
-      "id": 116,
+      "id": 117,
       "keys": [
         "/<story_scene>.*?(?:琳).*?<\\/story_scene>/s"
       ],
@@ -5457,7 +5502,7 @@
       "use_regex": true
     },
     {
-      "id": 117,
+      "id": 118,
       "keys": [
         "/<story_scene>.*?(?:父神|父神（星臣）|星臣).*?<\\/story_scene>/s"
       ],
@@ -5506,7 +5551,7 @@
       "use_regex": true
     },
     {
-      "id": 118,
+      "id": 119,
       "keys": [
         "/<story_scene>.*?(?:迦迦).*?<\\/story_scene>/s"
       ],
@@ -5555,7 +5600,7 @@
       "use_regex": true
     },
     {
-      "id": 119,
+      "id": 120,
       "keys": [
         "/<story_scene>.*?(?:休伦神王·希拉|希拉|休伦神王|希拉（休伦神王）).*?<\\/story_scene>/s"
       ],
@@ -5604,7 +5649,7 @@
       "use_regex": true
     },
     {
-      "id": 120,
+      "id": 121,
       "keys": [
         "/<story_scene>.*?(?:哈兰·克鲁瓦·莱瓦莱特|哈兰).*?<\\/story_scene>/s"
       ],
@@ -5653,7 +5698,7 @@
       "use_regex": true
     },
     {
-      "id": 121,
+      "id": 122,
       "keys": [
         "/<story_scene>.*?(?:扎多姆).*?<\\/story_scene>/s"
       ],
@@ -5702,7 +5747,7 @@
       "use_regex": true
     },
     {
-      "id": 122,
+      "id": 123,
       "keys": [
         "/<story_scene>.*?(?:奥卡姆).*?<\\/story_scene>/s"
       ],
@@ -5751,7 +5796,7 @@
       "use_regex": true
     },
     {
-      "id": 123,
+      "id": 124,
       "keys": [
         "/<story_scene>.*?(?:萨维).*?<\\/story_scene>/s"
       ],
@@ -5800,7 +5845,7 @@
       "use_regex": true
     },
     {
-      "id": 124,
+      "id": 125,
       "keys": [
         "/<story_scene>.*?(?:深渊侧希灵·那位大人|深渊侧希灵|深渊希灵|深渊侧希灵\\ /\\ “那位大人”).*?<\\/story_scene>/s"
       ],
@@ -5849,7 +5894,7 @@
       "use_regex": true
     },
     {
-      "id": 125,
+      "id": 126,
       "keys": [
         "/<story_scene>.*?(?:陈晓雪|晓雪|陈晓雪（晓雪）).*?<\\/story_scene>/s"
       ],
@@ -5898,7 +5943,7 @@
       "use_regex": true
     },
     {
-      "id": 126,
+      "id": 127,
       "keys": [
         "/<story_scene>.*?(?:晓珊).*?<\\/story_scene>/s"
       ],
@@ -5947,7 +5992,7 @@
       "use_regex": true
     },
     {
-      "id": 127,
+      "id": 128,
       "keys": [
         "/<story_scene>.*?(?:陈晓浅|晓浅|陈晓浅（晓浅）).*?<\\/story_scene>/s"
       ],
@@ -5996,7 +6041,7 @@
       "use_regex": true
     },
     {
-      "id": 128,
+      "id": 129,
       "keys": [
         "/<story_scene>.*?(?:盖亚).*?<\\/story_scene>/s"
       ],
@@ -6045,7 +6090,7 @@
       "use_regex": true
     },
     {
-      "id": 129,
+      "id": 130,
       "keys": [
         "/<story_scene>.*?(?:维嘉\\-0001|维嘉0001|维嘉\\-0001（维嘉）|维嘉).*?<\\/story_scene>/s"
       ],
@@ -6094,7 +6139,7 @@
       "use_regex": true
     },
     {
-      "id": 130,
+      "id": 131,
       "keys": [
         "/<story_scene>.*?(?:西卡罗).*?<\\/story_scene>/s"
       ],
@@ -6143,7 +6188,7 @@
       "use_regex": true
     },
     {
-      "id": 131,
+      "id": 132,
       "keys": [
         "/<story_scene>.*?(?:菲娜|安度瓦因·菲娜·奥维加·波普鲁斯·萨多恩凡尼迪·马萨维尔·兰罗兰拉·米奥尔嘉实·图伦索（常用名:菲娜）).*?<\\/story_scene>/s"
       ],
@@ -6192,7 +6237,7 @@
       "use_regex": true
     },
     {
-      "id": 132,
+      "id": 133,
       "keys": [
         "/<story_scene>.*?(?:麦迪雯).*?<\\/story_scene>/s"
       ],
@@ -6241,7 +6286,7 @@
       "use_regex": true
     },
     {
-      "id": 133,
+      "id": 134,
       "keys": [
         "/<story_scene>.*?(?:水银灯).*?<\\/story_scene>/s"
       ],
@@ -6290,7 +6335,7 @@
       "use_regex": true
     },
     {
-      "id": 134,
+      "id": 135,
       "keys": [
         "/<story_scene>.*?(?:毒岛冴子|冴子).*?<\\/story_scene>/s"
       ],
@@ -6339,7 +6384,7 @@
       "use_regex": true
     },
     {
-      "id": 135,
+      "id": 136,
       "keys": [
         "/<story_scene>.*?(?:佐天泪子|佐天).*?<\\/story_scene>/s"
       ],
@@ -6388,7 +6433,7 @@
       "use_regex": true
     },
     {
-      "id": 136,
+      "id": 137,
       "keys": [
         "/<story_scene>.*?(?:御坂10031|10031号).*?<\\/story_scene>/s"
       ],
@@ -6437,7 +6482,7 @@
       "use_regex": true
     },
     {
-      "id": 137,
+      "id": 138,
       "keys": [
         "/<story_scene>.*?(?:吉尔妹|吉尔伽美什（吉尔妹\\ /\\ 姬儿迦美氏）|吉尔伽美什|姬儿迦美氏).*?<\\/story_scene>/s"
       ],
@@ -6486,7 +6531,7 @@
       "use_regex": true
     },
     {
-      "id": 138,
+      "id": 139,
       "keys": [
         "/<story_scene>.*?(?:八云蓝).*?<\\/story_scene>/s"
       ],
@@ -6535,7 +6580,7 @@
       "use_regex": true
     },
     {
-      "id": 139,
+      "id": 140,
       "keys": [
         "/<story_scene>.*?(?:雪华绮晶|雪华绮晶（小绮晶）|小绮晶).*?<\\/story_scene>/s"
       ],
@@ -6584,7 +6629,7 @@
       "use_regex": true
     },
     {
-      "id": 140,
+      "id": 141,
       "keys": [
         "/<story_scene>.*?(?:丁玲).*?<\\/story_scene>/s"
       ],
@@ -6633,7 +6678,7 @@
       "use_regex": true
     },
     {
-      "id": 141,
+      "id": 142,
       "keys": [
         "/<story_scene>.*?(?:林风).*?<\\/story_scene>/s"
       ],
@@ -6682,7 +6727,7 @@
       "use_regex": true
     },
     {
-      "id": 142,
+      "id": 143,
       "keys": [
         "/<story_scene>.*?(?:菲丽丝|菲丽丝（亚菲丽丝）|亚菲丽丝).*?<\\/story_scene>/s"
       ],
@@ -6731,7 +6776,7 @@
       "use_regex": true
     },
     {
-      "id": 143,
+      "id": 144,
       "keys": [
         "/<story_scene>.*?(?:纱姬娜).*?<\\/story_scene>/s"
       ],
@@ -6780,7 +6825,7 @@
       "use_regex": true
     },
     {
-      "id": 144,
+      "id": 145,
       "keys": [
         "/<story_scene>.*?(?:索娜).*?<\\/story_scene>/s"
       ],
@@ -6829,7 +6874,7 @@
       "use_regex": true
     },
     {
-      "id": 145,
+      "id": 146,
       "keys": [
         "/<story_scene>.*?(?:罗兰盖尔|罗兰·盖尔).*?<\\/story_scene>/s"
       ],
@@ -6878,7 +6923,7 @@
       "use_regex": true
     },
     {
-      "id": 146,
+      "id": 147,
       "keys": [
         "/<story_scene>.*?(?:阿尔忒弥斯).*?<\\/story_scene>/s"
       ],
@@ -6927,7 +6972,7 @@
       "use_regex": true
     },
     {
-      "id": 147,
+      "id": 148,
       "keys": [
         "/<story_scene>.*?(?:八云紫).*?<\\/story_scene>/s"
       ],
@@ -6976,7 +7021,7 @@
       "use_regex": true
     },
     {
-      "id": 148,
+      "id": 149,
       "keys": [
         "/<story_scene>.*?(?:博丽灵梦|灵梦).*?<\\/story_scene>/s"
       ],
@@ -7025,7 +7070,7 @@
       "use_regex": true
     },
     {
-      "id": 149,
+      "id": 150,
       "keys": [
         "/<story_scene>.*?(?:御坂美琴|美琴).*?<\\/story_scene>/s"
       ],
@@ -7074,7 +7119,7 @@
       "use_regex": true
     },
     {
-      "id": 150,
+      "id": 151,
       "keys": [
         "/<story_scene>.*?(?:远坂凛).*?<\\/story_scene>/s"
       ],
@@ -7123,7 +7168,7 @@
       "use_regex": true
     },
     {
-      "id": 151,
+      "id": 152,
       "keys": [
         "/<story_scene>.*?(?:伊利亚斯菲尔·冯·艾因兹贝伦|伊利亚斯菲尔·冯·艾因兹贝伦（伊利亚）|伊利亚|伊莉雅).*?<\\/story_scene>/s"
       ],
@@ -7172,7 +7217,7 @@
       "use_regex": true
     },
     {
-      "id": 152,
+      "id": 153,
       "keys": [
         "/<story_scene>.*?(?:Rider·美杜莎|Rider\\ /\\ 美杜莎|Rider|美杜莎).*?<\\/story_scene>/s"
       ],
@@ -7221,7 +7266,7 @@
       "use_regex": true
     },
     {
-      "id": 153,
+      "id": 154,
       "keys": [
         "/<story_scene>.*?(?:佐佐木小次郎|小次郎).*?<\\/story_scene>/s"
       ],
@@ -7270,7 +7315,7 @@
       "use_regex": true
     },
     {
-      "id": 154,
+      "id": 155,
       "keys": [
         "/<story_scene>.*?(?:Saber·阿尔托利亚|Saber\\ /\\ 阿尔托利亚|Saber|阿尔托利亚).*?<\\/story_scene>/s"
       ],
@@ -7319,7 +7364,7 @@
       "use_regex": true
     },
     {
-      "id": 155,
+      "id": 156,
       "keys": [
         "/<story_scene>.*?(?:香草).*?<\\/story_scene>/s"
       ],
@@ -7368,7 +7413,7 @@
       "use_regex": true
     },
     {
-      "id": 156,
+      "id": 157,
       "keys": [
         "/<story_scene>.*?(?:吉安娜|吉安娜·普罗德摩尔).*?<\\/story_scene>/s"
       ],
@@ -7417,7 +7462,7 @@
       "use_regex": true
     },
     {
-      "id": 157,
+      "id": 158,
       "keys": [
         "/<story_scene>.*?(?:希尔瓦娜斯|希尔瓦娜斯·风行者).*?<\\/story_scene>/s"
       ],
@@ -7466,7 +7511,7 @@
       "use_regex": true
     },
     {
-      "id": 158,
+      "id": 159,
       "keys": [
         "/<story_scene>.*?(?:詹姆斯·雷诺|雷诺).*?<\\/story_scene>/s"
       ],
@@ -7515,7 +7560,7 @@
       "use_regex": true
     },
     {
-      "id": 159,
+      "id": 160,
       "keys": [
         "/<story_scene>.*?(?:泽拉图).*?<\\/story_scene>/s"
       ],
@@ -7564,7 +7609,7 @@
       "use_regex": true
     },
     {
-      "id": 160,
+      "id": 161,
       "keys": [
         "/<story_scene>.*?(?:阿奴丽丽).*?<\\/story_scene>/s"
       ],
@@ -7613,7 +7658,7 @@
       "use_regex": true
     },
     {
-      "id": 161,
+      "id": 162,
       "keys": [
         "/<story_scene>.*?(?:图拉佐).*?<\\/story_scene>/s"
       ],
@@ -7662,7 +7707,7 @@
       "use_regex": true
     },
     {
-      "id": 162,
+      "id": 163,
       "keys": [
         "/<story_scene>.*?(?:索娅).*?<\\/story_scene>/s"
       ],
@@ -7711,7 +7756,7 @@
       "use_regex": true
     },
     {
-      "id": 163,
+      "id": 164,
       "keys": [
         "/<story_scene>.*?(?:库丘林|库·丘林).*?<\\/story_scene>/s"
       ],
@@ -7760,7 +7805,7 @@
       "use_regex": true
     },
     {
-      "id": 164,
+      "id": 165,
       "keys": [
         "/<story_scene>.*?(?:红A|红色Archer|红A\\ /\\ Archer|Archer).*?<\\/story_scene>/s"
       ],
@@ -7809,7 +7854,7 @@
       "use_regex": true
     },
     {
-      "id": 165,
+      "id": 166,
       "keys": [
         "/<story_scene>.*?(?:美狄亚|美狄亚\\ /\\ Caster|Caster).*?<\\/story_scene>/s"
       ],
@@ -7858,7 +7903,7 @@
       "use_regex": true
     },
     {
-      "id": 166,
+      "id": 167,
       "keys": [
         "/<story_scene>.*?(?:海格力斯|赫拉克勒斯|海格力斯\\ /\\ Berserker|Berserker).*?<\\/story_scene>/s"
       ],
@@ -7907,7 +7952,7 @@
       "use_regex": true
     },
     {
-      "id": 167,
+      "id": 168,
       "keys": [
         "/<story_scene>.*?(?:雾雨魔理沙|魔理沙).*?<\\/story_scene>/s"
       ],
@@ -7956,7 +8001,7 @@
       "use_regex": true
     },
     {
-      "id": 168,
+      "id": 169,
       "keys": [
         "/<story_scene>.*?(?:西行寺幽幽子|幽幽子).*?<\\/story_scene>/s"
       ],
@@ -8005,7 +8050,7 @@
       "use_regex": true
     },
     {
-      "id": 169,
+      "id": 170,
       "keys": [
         "/<story_scene>.*?(?:凯瑞甘|莎拉·凯瑞甘|莎拉·凯瑞甘\\ /\\ 刀锋女王|刀锋女王).*?<\\/story_scene>/s"
       ],
@@ -8054,7 +8099,7 @@
       "use_regex": true
     },
     {
-      "id": 170,
+      "id": 171,
       "keys": [
         "/<story_scene>.*?(?:泰克斯·芬德利|泰克斯).*?<\\/story_scene>/s"
       ],
@@ -8103,7 +8148,7 @@
       "use_regex": true
     },
     {
-      "id": 171,
+      "id": 172,
       "keys": [
         "/<story_scene>.*?(?:夏娜).*?<\\/story_scene>/s"
       ],
@@ -8152,7 +8197,7 @@
       "use_regex": true
     },
     {
-      "id": 172,
+      "id": 173,
       "keys": [
         "/<story_scene>.*?(?:C\\.C\\.|C·C).*?<\\/story_scene>/s"
       ],
@@ -8201,7 +8246,7 @@
       "use_regex": true
     },
     {
-      "id": 173,
+      "id": 174,
       "keys": [],
       "secondary_keys": [],
       "comment": "【核心设定:结尾】",
@@ -8246,7 +8291,7 @@
       "use_regex": false
     },
     {
-      "id": 174,
+      "id": 175,
       "keys": [],
       "secondary_keys": [],
       "comment": "【主要角色:起始】",
@@ -8291,7 +8336,7 @@
       "use_regex": false
     },
     {
-      "id": 175,
+      "id": 176,
       "keys": [
         "/<story_scene>.*?(?:陈俊|阿俊).*?<\\/story_scene>/s"
       ],
@@ -8338,7 +8383,7 @@
       "use_regex": true
     },
     {
-      "id": 176,
+      "id": 177,
       "keys": [
         "/<story_scene>.*?(?:珊多拉·凯尔薇·尤拉西斯|珊多拉|珊多拉·凯尔薇).*?<\\/story_scene>/s"
       ],
@@ -8385,7 +8430,7 @@
       "use_regex": true
     },
     {
-      "id": 177,
+      "id": 178,
       "keys": [
         "/<story_scene>.*?(?:陈倩).*?<\\/story_scene>/s"
       ],
@@ -8432,7 +8477,7 @@
       "use_regex": true
     },
     {
-      "id": 178,
+      "id": 179,
       "keys": [
         "/<story_scene>.*?(?:许浅浅|浅浅).*?<\\/story_scene>/s"
       ],
@@ -8479,7 +8524,7 @@
       "use_regex": true
     },
     {
-      "id": 179,
+      "id": 180,
       "keys": [
         "/<story_scene>.*?(?:林雪).*?<\\/story_scene>/s"
       ],
@@ -8526,7 +8571,7 @@
       "use_regex": true
     },
     {
-      "id": 180,
+      "id": 181,
       "keys": [
         "/<story_scene>.*?(?:潘多拉\\-zero|潘多拉).*?<\\/story_scene>/s"
       ],
@@ -8573,7 +8618,7 @@
       "use_regex": true
     },
     {
-      "id": 181,
+      "id": 182,
       "keys": [
         "/<story_scene>.*?(?:维斯卡).*?<\\/story_scene>/s"
       ],
@@ -8620,7 +8665,7 @@
       "use_regex": true
     },
     {
-      "id": 182,
+      "id": 183,
       "keys": [
         "/<story_scene>.*?(?:莉莉娜).*?<\\/story_scene>/s"
       ],
@@ -8667,7 +8712,7 @@
       "use_regex": true
     },
     {
-      "id": 183,
+      "id": 184,
       "keys": [
         "/<story_scene>.*?(?:泡泡).*?<\\/story_scene>/s"
       ],
@@ -8714,7 +8759,7 @@
       "use_regex": true
     },
     {
-      "id": 184,
+      "id": 185,
       "keys": [
         "/<story_scene>.*?(?:小泡泡).*?<\\/story_scene>/s"
       ],
@@ -8761,7 +8806,7 @@
       "use_regex": true
     },
     {
-      "id": 185,
+      "id": 186,
       "keys": [
         "/<story_scene>.*?(?:阿赖耶).*?<\\/story_scene>/s"
       ],
@@ -8808,7 +8853,7 @@
       "use_regex": true
     },
     {
-      "id": 186,
+      "id": 187,
       "keys": [
         "/<story_scene>.*?(?:安薇娜).*?<\\/story_scene>/s"
       ],
@@ -8855,7 +8900,7 @@
       "use_regex": true
     },
     {
-      "id": 187,
+      "id": 188,
       "keys": [
         "/<story_scene>.*?(?:西维斯).*?<\\/story_scene>/s"
       ],
@@ -8902,7 +8947,7 @@
       "use_regex": true
     },
     {
-      "id": 188,
+      "id": 189,
       "keys": [
         "/<story_scene>.*?(?:塔维尔).*?<\\/story_scene>/s"
       ],
@@ -8949,7 +8994,7 @@
       "use_regex": true
     },
     {
-      "id": 189,
+      "id": 190,
       "keys": [
         "/<story_scene>.*?(?:奥蕾莉亚).*?<\\/story_scene>/s"
       ],
@@ -8996,7 +9041,7 @@
       "use_regex": true
     },
     {
-      "id": 190,
+      "id": 191,
       "keys": [
         "/<story_scene>.*?(?:阿西达).*?<\\/story_scene>/s"
       ],
@@ -9043,7 +9088,7 @@
       "use_regex": true
     },
     {
-      "id": 191,
+      "id": 192,
       "keys": [
         "/<story_scene>.*?(?:阿西多拉).*?<\\/story_scene>/s"
       ],
@@ -9090,7 +9135,7 @@
       "use_regex": true
     },
     {
-      "id": 192,
+      "id": 193,
       "keys": [
         "/<story_scene>.*?(?:希灵|网络人格希灵|独立人格希灵).*?<\\/story_scene>/s"
       ],
@@ -9137,7 +9182,7 @@
       "use_regex": true
     },
     {
-      "id": 193,
+      "id": 194,
       "keys": [
         "/<story_scene>.*?(?:希尔维亚\\ /\\ 贝拉维拉|希尔维亚|贝拉维拉).*?<\\/story_scene>/s"
       ],
@@ -9184,7 +9229,7 @@
       "use_regex": true
     },
     {
-      "id": 194,
+      "id": 195,
       "keys": [
         "/<story_scene>.*?(?:渡鸦001|渡鸦零零一).*?<\\/story_scene>/s"
       ],
@@ -9231,7 +9276,7 @@
       "use_regex": true
     },
     {
-      "id": 195,
+      "id": 196,
       "keys": [
         "/<story_scene>.*?(?:卡特·卡洛|卡特).*?<\\/story_scene>/s"
       ],
@@ -9278,7 +9323,7 @@
       "use_regex": true
     },
     {
-      "id": 196,
+      "id": 197,
       "keys": [
         "/<story_scene>.*?(?:文森特·卡洛|文森特).*?<\\/story_scene>/s"
       ],
@@ -9325,7 +9370,7 @@
       "use_regex": true
     },
     {
-      "id": 197,
+      "id": 198,
       "keys": [
         "/<story_scene>.*?(?:叮当).*?<\\/story_scene>/s"
       ],
@@ -9372,7 +9417,7 @@
       "use_regex": true
     },
     {
-      "id": 198,
+      "id": 199,
       "keys": [
         "/<story_scene>.*?(?:冰蒂斯|冰姐).*?<\\/story_scene>/s"
       ],
@@ -9419,7 +9464,7 @@
       "use_regex": true
     },
     {
-      "id": 199,
+      "id": 200,
       "keys": [
         "/<story_scene>.*?(?:莫妮娜).*?<\\/story_scene>/s"
       ],
@@ -9466,7 +9511,7 @@
       "use_regex": true
     },
     {
-      "id": 200,
+      "id": 201,
       "keys": [
         "/<story_scene>.*?(?:伊尔森|依尔森).*?<\\/story_scene>/s"
       ],
@@ -9513,7 +9558,7 @@
       "use_regex": true
     },
     {
-      "id": 201,
+      "id": 202,
       "keys": [
         "/<story_scene>.*?(?:肯瑟).*?<\\/story_scene>/s"
       ],
@@ -9560,7 +9605,7 @@
       "use_regex": true
     },
     {
-      "id": 202,
+      "id": 203,
       "keys": [
         "/<story_scene>.*?(?:琳).*?<\\/story_scene>/s"
       ],
@@ -9607,7 +9652,7 @@
       "use_regex": true
     },
     {
-      "id": 203,
+      "id": 204,
       "keys": [
         "/<story_scene>.*?(?:父神（星臣）|父神|星臣).*?<\\/story_scene>/s"
       ],
@@ -9654,7 +9699,7 @@
       "use_regex": true
     },
     {
-      "id": 204,
+      "id": 205,
       "keys": [
         "/<story_scene>.*?(?:迦迦).*?<\\/story_scene>/s"
       ],
@@ -9701,7 +9746,7 @@
       "use_regex": true
     },
     {
-      "id": 205,
+      "id": 206,
       "keys": [
         "/<story_scene>.*?(?:希拉（休伦神王）|希拉|休伦神王).*?<\\/story_scene>/s"
       ],
@@ -9748,7 +9793,7 @@
       "use_regex": true
     },
     {
-      "id": 206,
+      "id": 207,
       "keys": [
         "/<story_scene>.*?(?:哈兰·克鲁瓦·莱瓦莱特|哈兰).*?<\\/story_scene>/s"
       ],
@@ -9795,7 +9840,7 @@
       "use_regex": true
     },
     {
-      "id": 207,
+      "id": 208,
       "keys": [
         "/<story_scene>.*?(?:扎多姆).*?<\\/story_scene>/s"
       ],
@@ -9842,7 +9887,7 @@
       "use_regex": true
     },
     {
-      "id": 208,
+      "id": 209,
       "keys": [
         "/<story_scene>.*?(?:奥卡姆).*?<\\/story_scene>/s"
       ],
@@ -9889,7 +9934,7 @@
       "use_regex": true
     },
     {
-      "id": 209,
+      "id": 210,
       "keys": [
         "/<story_scene>.*?(?:萨维).*?<\\/story_scene>/s"
       ],
@@ -9936,7 +9981,7 @@
       "use_regex": true
     },
     {
-      "id": 210,
+      "id": 211,
       "keys": [
         "/<story_scene>.*?(?:深渊侧希灵\\ /\\ “那位大人”|深渊侧希灵|深渊希灵).*?<\\/story_scene>/s"
       ],
@@ -9983,7 +10028,7 @@
       "use_regex": true
     },
     {
-      "id": 211,
+      "id": 212,
       "keys": [
         "/<story_scene>.*?(?:陈晓雪（晓雪）|陈晓雪|晓雪).*?<\\/story_scene>/s"
       ],
@@ -10030,7 +10075,7 @@
       "use_regex": true
     },
     {
-      "id": 212,
+      "id": 213,
       "keys": [
         "/<story_scene>.*?(?:晓珊).*?<\\/story_scene>/s"
       ],
@@ -10077,7 +10122,7 @@
       "use_regex": true
     },
     {
-      "id": 213,
+      "id": 214,
       "keys": [
         "/<story_scene>.*?(?:陈晓浅（晓浅）|陈晓浅|晓浅).*?<\\/story_scene>/s"
       ],
@@ -10124,7 +10169,7 @@
       "use_regex": true
     },
     {
-      "id": 214,
+      "id": 215,
       "keys": [
         "/<story_scene>.*?(?:盖亚).*?<\\/story_scene>/s"
       ],
@@ -10171,7 +10216,7 @@
       "use_regex": true
     },
     {
-      "id": 215,
+      "id": 216,
       "keys": [
         "/<story_scene>.*?(?:维嘉\\-0001（维嘉）|维嘉\\-0001|维嘉0001|维嘉).*?<\\/story_scene>/s"
       ],
@@ -10218,7 +10263,7 @@
       "use_regex": true
     },
     {
-      "id": 216,
+      "id": 217,
       "keys": [
         "/<story_scene>.*?(?:西卡罗).*?<\\/story_scene>/s"
       ],
@@ -10265,7 +10310,7 @@
       "use_regex": true
     },
     {
-      "id": 217,
+      "id": 218,
       "keys": [
         "/<story_scene>.*?(?:安度瓦因·菲娜·奥维加·波普鲁斯·萨多恩凡尼迪·马萨维尔·兰罗兰拉·米奥尔嘉实·图伦索（常用名:菲娜）|菲娜).*?<\\/story_scene>/s"
       ],
@@ -10312,7 +10357,7 @@
       "use_regex": true
     },
     {
-      "id": 218,
+      "id": 219,
       "keys": [
         "/<story_scene>.*?(?:麦迪雯).*?<\\/story_scene>/s"
       ],
@@ -10359,7 +10404,7 @@
       "use_regex": true
     },
     {
-      "id": 219,
+      "id": 220,
       "keys": [
         "/<story_scene>.*?(?:水银灯).*?<\\/story_scene>/s"
       ],
@@ -10406,7 +10451,7 @@
       "use_regex": true
     },
     {
-      "id": 220,
+      "id": 221,
       "keys": [
         "/<story_scene>.*?(?:毒岛冴子|冴子).*?<\\/story_scene>/s"
       ],
@@ -10453,7 +10498,7 @@
       "use_regex": true
     },
     {
-      "id": 221,
+      "id": 222,
       "keys": [
         "/<story_scene>.*?(?:佐天泪子|佐天).*?<\\/story_scene>/s"
       ],
@@ -10500,7 +10545,7 @@
       "use_regex": true
     },
     {
-      "id": 222,
+      "id": 223,
       "keys": [
         "/<story_scene>.*?(?:御坂10031|10031号).*?<\\/story_scene>/s"
       ],
@@ -10547,7 +10592,7 @@
       "use_regex": true
     },
     {
-      "id": 223,
+      "id": 224,
       "keys": [
         "/<story_scene>.*?(?:吉尔伽美什（吉尔妹\\ /\\ 姬儿迦美氏）|吉尔伽美什|吉尔妹|姬儿迦美氏).*?<\\/story_scene>/s"
       ],
@@ -10594,7 +10639,7 @@
       "use_regex": true
     },
     {
-      "id": 224,
+      "id": 225,
       "keys": [
         "/<story_scene>.*?(?:八云蓝).*?<\\/story_scene>/s"
       ],
@@ -10641,7 +10686,7 @@
       "use_regex": true
     },
     {
-      "id": 225,
+      "id": 226,
       "keys": [
         "/<story_scene>.*?(?:雪华绮晶（小绮晶）|雪华绮晶|小绮晶).*?<\\/story_scene>/s"
       ],
@@ -10688,7 +10733,7 @@
       "use_regex": true
     },
     {
-      "id": 226,
+      "id": 227,
       "keys": [],
       "secondary_keys": [],
       "comment": "【主要角色:结尾】",
@@ -10733,7 +10778,7 @@
       "use_regex": false
     },
     {
-      "id": 227,
+      "id": 228,
       "keys": [],
       "secondary_keys": [],
       "comment": "【其他角色:起始】",
@@ -10778,7 +10823,7 @@
       "use_regex": false
     },
     {
-      "id": 228,
+      "id": 229,
       "keys": [
         "/<story_scene>.*?(?:丁玲).*?<\\/story_scene>/s"
       ],
@@ -10825,7 +10870,7 @@
       "use_regex": true
     },
     {
-      "id": 229,
+      "id": 230,
       "keys": [
         "/<story_scene>.*?(?:林风).*?<\\/story_scene>/s"
       ],
@@ -10872,7 +10917,7 @@
       "use_regex": true
     },
     {
-      "id": 230,
+      "id": 231,
       "keys": [
         "/<story_scene>.*?(?:菲丽丝（亚菲丽丝）|菲丽丝|亚菲丽丝).*?<\\/story_scene>/s"
       ],
@@ -10919,7 +10964,7 @@
       "use_regex": true
     },
     {
-      "id": 231,
+      "id": 232,
       "keys": [
         "/<story_scene>.*?(?:纱姬娜).*?<\\/story_scene>/s"
       ],
@@ -10966,7 +11011,7 @@
       "use_regex": true
     },
     {
-      "id": 232,
+      "id": 233,
       "keys": [
         "/<story_scene>.*?(?:索娜).*?<\\/story_scene>/s"
       ],
@@ -11013,7 +11058,7 @@
       "use_regex": true
     },
     {
-      "id": 233,
+      "id": 234,
       "keys": [
         "/<story_scene>.*?(?:罗兰盖尔|罗兰·盖尔).*?<\\/story_scene>/s"
       ],
@@ -11060,7 +11105,7 @@
       "use_regex": true
     },
     {
-      "id": 234,
+      "id": 235,
       "keys": [
         "/<story_scene>.*?(?:阿尔忒弥斯).*?<\\/story_scene>/s"
       ],
@@ -11107,7 +11152,7 @@
       "use_regex": true
     },
     {
-      "id": 235,
+      "id": 236,
       "keys": [
         "/<story_scene>.*?(?:八云紫).*?<\\/story_scene>/s"
       ],
@@ -11154,7 +11199,7 @@
       "use_regex": true
     },
     {
-      "id": 236,
+      "id": 237,
       "keys": [
         "/<story_scene>.*?(?:博丽灵梦|灵梦).*?<\\/story_scene>/s"
       ],
@@ -11201,7 +11246,7 @@
       "use_regex": true
     },
     {
-      "id": 237,
+      "id": 238,
       "keys": [
         "/<story_scene>.*?(?:御坂美琴|美琴).*?<\\/story_scene>/s"
       ],
@@ -11248,7 +11293,7 @@
       "use_regex": true
     },
     {
-      "id": 238,
+      "id": 239,
       "keys": [
         "/<story_scene>.*?(?:远坂凛).*?<\\/story_scene>/s"
       ],
@@ -11295,7 +11340,7 @@
       "use_regex": true
     },
     {
-      "id": 239,
+      "id": 240,
       "keys": [
         "/<story_scene>.*?(?:伊利亚斯菲尔·冯·艾因兹贝伦（伊利亚）|伊利亚|伊莉雅).*?<\\/story_scene>/s"
       ],
@@ -11342,7 +11387,7 @@
       "use_regex": true
     },
     {
-      "id": 240,
+      "id": 241,
       "keys": [
         "/<story_scene>.*?(?:Rider\\ /\\ 美杜莎|Rider|美杜莎).*?<\\/story_scene>/s"
       ],
@@ -11389,7 +11434,7 @@
       "use_regex": true
     },
     {
-      "id": 241,
+      "id": 242,
       "keys": [
         "/<story_scene>.*?(?:佐佐木小次郎|小次郎).*?<\\/story_scene>/s"
       ],
@@ -11436,7 +11481,7 @@
       "use_regex": true
     },
     {
-      "id": 242,
+      "id": 243,
       "keys": [
         "/<story_scene>.*?(?:Saber\\ /\\ 阿尔托利亚|Saber|阿尔托利亚).*?<\\/story_scene>/s"
       ],
@@ -11483,7 +11528,7 @@
       "use_regex": true
     },
     {
-      "id": 243,
+      "id": 244,
       "keys": [
         "/<story_scene>.*?(?:香草).*?<\\/story_scene>/s"
       ],
@@ -11530,7 +11575,7 @@
       "use_regex": true
     },
     {
-      "id": 244,
+      "id": 245,
       "keys": [
         "/<story_scene>.*?(?:吉安娜·普罗德摩尔|吉安娜).*?<\\/story_scene>/s"
       ],
@@ -11577,7 +11622,7 @@
       "use_regex": true
     },
     {
-      "id": 245,
+      "id": 246,
       "keys": [
         "/<story_scene>.*?(?:希尔瓦娜斯·风行者|希尔瓦娜斯).*?<\\/story_scene>/s"
       ],
@@ -11624,7 +11669,7 @@
       "use_regex": true
     },
     {
-      "id": 246,
+      "id": 247,
       "keys": [
         "/<story_scene>.*?(?:詹姆斯·雷诺|雷诺).*?<\\/story_scene>/s"
       ],
@@ -11671,7 +11716,7 @@
       "use_regex": true
     },
     {
-      "id": 247,
+      "id": 248,
       "keys": [
         "/<story_scene>.*?(?:泽拉图).*?<\\/story_scene>/s"
       ],
@@ -11718,7 +11763,7 @@
       "use_regex": true
     },
     {
-      "id": 248,
+      "id": 249,
       "keys": [
         "/<story_scene>.*?(?:阿奴丽丽).*?<\\/story_scene>/s"
       ],
@@ -11765,7 +11810,7 @@
       "use_regex": true
     },
     {
-      "id": 249,
+      "id": 250,
       "keys": [
         "/<story_scene>.*?(?:图拉佐).*?<\\/story_scene>/s"
       ],
@@ -11812,7 +11857,7 @@
       "use_regex": true
     },
     {
-      "id": 250,
+      "id": 251,
       "keys": [
         "/<story_scene>.*?(?:索娅).*?<\\/story_scene>/s"
       ],
@@ -11859,7 +11904,7 @@
       "use_regex": true
     },
     {
-      "id": 251,
+      "id": 252,
       "keys": [
         "/<story_scene>.*?(?:库丘林|库·丘林).*?<\\/story_scene>/s"
       ],
@@ -11906,7 +11951,7 @@
       "use_regex": true
     },
     {
-      "id": 252,
+      "id": 253,
       "keys": [
         "/<story_scene>.*?(?:红A\\ /\\ Archer|红A|Archer|红色Archer).*?<\\/story_scene>/s"
       ],
@@ -11953,7 +11998,7 @@
       "use_regex": true
     },
     {
-      "id": 253,
+      "id": 254,
       "keys": [
         "/<story_scene>.*?(?:美狄亚\\ /\\ Caster|美狄亚|Caster).*?<\\/story_scene>/s"
       ],
@@ -12000,7 +12045,7 @@
       "use_regex": true
     },
     {
-      "id": 254,
+      "id": 255,
       "keys": [
         "/<story_scene>.*?(?:海格力斯\\ /\\ Berserker|海格力斯|赫拉克勒斯|Berserker).*?<\\/story_scene>/s"
       ],
@@ -12047,7 +12092,7 @@
       "use_regex": true
     },
     {
-      "id": 255,
+      "id": 256,
       "keys": [
         "/<story_scene>.*?(?:雾雨魔理沙|魔理沙).*?<\\/story_scene>/s"
       ],
@@ -12094,7 +12139,7 @@
       "use_regex": true
     },
     {
-      "id": 256,
+      "id": 257,
       "keys": [
         "/<story_scene>.*?(?:西行寺幽幽子|幽幽子).*?<\\/story_scene>/s"
       ],
@@ -12141,7 +12186,7 @@
       "use_regex": true
     },
     {
-      "id": 257,
+      "id": 258,
       "keys": [
         "/<story_scene>.*?(?:莎拉·凯瑞甘\\ /\\ 刀锋女王|莎拉·凯瑞甘|凯瑞甘|刀锋女王).*?<\\/story_scene>/s"
       ],
@@ -12188,7 +12233,7 @@
       "use_regex": true
     },
     {
-      "id": 258,
+      "id": 259,
       "keys": [
         "/<story_scene>.*?(?:泰克斯·芬德利|泰克斯).*?<\\/story_scene>/s"
       ],
@@ -12235,7 +12280,7 @@
       "use_regex": true
     },
     {
-      "id": 259,
+      "id": 260,
       "keys": [
         "/<story_scene>.*?(?:夏娜).*?<\\/story_scene>/s"
       ],
@@ -12282,7 +12327,7 @@
       "use_regex": true
     },
     {
-      "id": 260,
+      "id": 261,
       "keys": [
         "/<story_scene>.*?(?:C\\.C\\.|C·C).*?<\\/story_scene>/s"
       ],
@@ -12329,7 +12374,7 @@
       "use_regex": true
     },
     {
-      "id": 261,
+      "id": 262,
       "keys": [],
       "secondary_keys": [],
       "comment": "【其他角色:结尾】",
@@ -12374,7 +12419,7 @@
       "use_regex": false
     },
     {
-      "id": 262,
+      "id": 263,
       "keys": [],
       "secondary_keys": [],
       "comment": "【地点:起始】",
@@ -12419,7 +12464,7 @@
       "use_regex": false
     },
     {
-      "id": 263,
+      "id": 264,
       "keys": [
         "/<status>[\\s\\S]*?当前位置\\s*[:：][^\\n<]*?(?:K市)[\\s\\S]*?<\\/status>/s"
       ],
@@ -12466,7 +12511,7 @@
       "use_regex": true
     },
     {
-      "id": 264,
+      "id": 265,
       "keys": [
         "/<status>[\\s\\S]*?当前位置\\s*[:：][^\\n<]*?(?:影子空间)[\\s\\S]*?<\\/status>/s"
       ],
@@ -12513,7 +12558,7 @@
       "use_regex": true
     },
     {
-      "id": 265,
+      "id": 266,
       "keys": [
         "/<status>[\\s\\S]*?当前位置\\s*[:：][^\\n<]*?(?:影子城)[\\s\\S]*?<\\/status>/s"
       ],
@@ -12560,7 +12605,7 @@
       "use_regex": true
     },
     {
-      "id": 266,
+      "id": 267,
       "keys": [
         "/<status>[\\s\\S]*?当前位置\\s*[:：][^\\n<]*?(?:阿瓦隆)[\\s\\S]*?<\\/status>/s"
       ],
@@ -12607,7 +12652,7 @@
       "use_regex": true
     },
     {
-      "id": 267,
+      "id": 268,
       "keys": [
         "/<status>[\\s\\S]*?当前位置\\s*[:：][^\\n<]*?(?:十五天区)[\\s\\S]*?<\\/status>/s"
       ],
@@ -12654,7 +12699,7 @@
       "use_regex": true
     },
     {
-      "id": 268,
+      "id": 269,
       "keys": [
         "/<status>[\\s\\S]*?当前位置\\s*[:：][^\\n<]*?(?:帝国首府|首府)[\\s\\S]*?<\\/status>/s"
       ],
@@ -12701,7 +12746,7 @@
       "use_regex": true
     },
     {
-      "id": 269,
+      "id": 270,
       "keys": [
         "/<status>[\\s\\S]*?当前位置\\s*[:：][^\\n<]*?(?:帝国上将号|上将号)[\\s\\S]*?<\\/status>/s"
       ],
@@ -12748,7 +12793,7 @@
       "use_regex": true
     },
     {
-      "id": 270,
+      "id": 271,
       "keys": [
         "/<status>[\\s\\S]*?当前位置\\s*[:：][^\\n<]*?(?:时空管理局|时空管理局总部)[\\s\\S]*?<\\/status>/s"
       ],
@@ -12795,7 +12840,7 @@
       "use_regex": true
     },
     {
-      "id": 271,
+      "id": 272,
       "keys": [
         "/<status>[\\s\\S]*?当前位置\\s*[:：][^\\n<]*?(?:天使之城)[\\s\\S]*?<\\/status>/s"
       ],
@@ -12842,7 +12887,7 @@
       "use_regex": true
     },
     {
-      "id": 272,
+      "id": 273,
       "keys": [
         "/<status>[\\s\\S]*?当前位置\\s*[:：][^\\n<]*?(?:深潜港|深潜试验港)[\\s\\S]*?<\\/status>/s"
       ],
@@ -12889,7 +12934,7 @@
       "use_regex": true
     },
     {
-      "id": 273,
+      "id": 274,
       "keys": [
         "/<status>[\\s\\S]*?当前位置\\s*[:：][^\\n<]*?(?:星域神界)[\\s\\S]*?<\\/status>/s"
       ],
@@ -12936,7 +12981,7 @@
       "use_regex": true
     },
     {
-      "id": 274,
+      "id": 275,
       "keys": [
         "/<status>[\\s\\S]*?当前位置\\s*[:：][^\\n<]*?(?:休伦神界)[\\s\\S]*?<\\/status>/s"
       ],
@@ -12983,7 +13028,7 @@
       "use_regex": true
     },
     {
-      "id": 275,
+      "id": 276,
       "keys": [
         "/<status>[\\s\\S]*?当前位置\\s*[:：][^\\n<]*?(?:深渊区)[\\s\\S]*?<\\/status>/s"
       ],
@@ -13030,7 +13075,7 @@
       "use_regex": true
     },
     {
-      "id": 276,
+      "id": 277,
       "keys": [
         "/<status>[\\s\\S]*?当前位置\\s*[:：][^\\n<]*?(?:宁静核心)[\\s\\S]*?<\\/status>/s"
       ],
@@ -13077,7 +13122,7 @@
       "use_regex": true
     },
     {
-      "id": 277,
+      "id": 278,
       "keys": [
         "/<status>[\\s\\S]*?当前位置\\s*[:：][^\\n<]*?(?:故乡世界)[\\s\\S]*?<\\/status>/s"
       ],
@@ -13124,7 +13169,7 @@
       "use_regex": true
     },
     {
-      "id": 278,
+      "id": 279,
       "keys": [
         "/<status>[\\s\\S]*?当前位置\\s*[:：][^\\n<]*?(?:陈俊家|陈家大宅|陈家大院|陈家)[\\s\\S]*?<\\/status>/s"
       ],
@@ -13171,7 +13216,7 @@
       "use_regex": true
     },
     {
-      "id": 279,
+      "id": 280,
       "keys": [
         "/<status>[\\s\\S]*?当前位置\\s*[:：][^\\n<]*?(?:起源母星|最初母星)[\\s\\S]*?<\\/status>/s"
       ],
@@ -13218,7 +13263,7 @@
       "use_regex": true
     },
     {
-      "id": 280,
+      "id": 281,
       "keys": [
         "/<status>[\\s\\S]*?当前位置\\s*[:：][^\\n<]*?(?:维迪斯)[\\s\\S]*?<\\/status>/s"
       ],
@@ -13265,7 +13310,7 @@
       "use_regex": true
     },
     {
-      "id": 281,
+      "id": 282,
       "keys": [
         "/<status>[\\s\\S]*?当前位置\\s*[:：][^\\n<]*?(?:达隆郡)[\\s\\S]*?<\\/status>/s"
       ],
@@ -13312,7 +13357,7 @@
       "use_regex": true
     },
     {
-      "id": 282,
+      "id": 283,
       "keys": [
         "/<status>[\\s\\S]*?当前位置\\s*[:：][^\\n<]*?(?:艾泽拉斯)[\\s\\S]*?<\\/status>/s"
       ],
@@ -13359,7 +13404,7 @@
       "use_regex": true
     },
     {
-      "id": 283,
+      "id": 284,
       "keys": [
         "/<status>[\\s\\S]*?当前位置\\s*[:：][^\\n<]*?(?:奥林匹斯山)[\\s\\S]*?<\\/status>/s"
       ],
@@ -13406,7 +13451,7 @@
       "use_regex": true
     },
     {
-      "id": 284,
+      "id": 285,
       "keys": [
         "/<status>[\\s\\S]*?当前位置\\s*[:：][^\\n<]*?(?:月球)[\\s\\S]*?<\\/status>/s"
       ],
@@ -13453,7 +13498,7 @@
       "use_regex": true
     },
     {
-      "id": 285,
+      "id": 286,
       "keys": [
         "/<status>[\\s\\S]*?当前位置\\s*[:：][^\\n<]*?(?:学园都市)[\\s\\S]*?<\\/status>/s"
       ],
@@ -13500,7 +13545,7 @@
       "use_regex": true
     },
     {
-      "id": 286,
+      "id": 287,
       "keys": [
         "/<status>[\\s\\S]*?当前位置\\s*[:：][^\\n<]*?(?:克普鲁星区|克普鲁)[\\s\\S]*?<\\/status>/s"
       ],
@@ -13547,7 +13592,7 @@
       "use_regex": true
     },
     {
-      "id": 287,
+      "id": 288,
       "keys": [
         "/<status>[\\s\\S]*?当前位置\\s*[:：][^\\n<]*?(?:冬木市|冬木)[\\s\\S]*?<\\/status>/s"
       ],
@@ -13594,7 +13639,7 @@
       "use_regex": true
     },
     {
-      "id": 288,
+      "id": 289,
       "keys": [
         "/<status>[\\s\\S]*?当前位置\\s*[:：][^\\n<]*?(?:大星云)[\\s\\S]*?<\\/status>/s"
       ],
@@ -13641,7 +13686,7 @@
       "use_regex": true
     },
     {
-      "id": 289,
+      "id": 290,
       "keys": [
         "/<status>[\\s\\S]*?当前位置\\s*[:：][^\\n<]*?(?:幻想乡)[\\s\\S]*?<\\/status>/s"
       ],
@@ -13688,7 +13733,7 @@
       "use_regex": true
     },
     {
-      "id": 290,
+      "id": 291,
       "keys": [
         "/<status>[\\s\\S]*?当前位置\\s*[:：][^\\n<]*?(?:亚特兰蒂斯)[\\s\\S]*?<\\/status>/s"
       ],
@@ -13735,7 +13780,7 @@
       "use_regex": true
     },
     {
-      "id": 291,
+      "id": 292,
       "keys": [
         "/<status>[\\s\\S]*?当前位置\\s*[:：][^\\n<]*?(?:莫布拉多)[\\s\\S]*?<\\/status>/s"
       ],
@@ -13782,7 +13827,7 @@
       "use_regex": true
     },
     {
-      "id": 292,
+      "id": 293,
       "keys": [
         "/<status>[\\s\\S]*?当前位置\\s*[:：][^\\n<]*?(?:废墟世界)[\\s\\S]*?<\\/status>/s"
       ],
@@ -13829,7 +13874,7 @@
       "use_regex": true
     },
     {
-      "id": 293,
+      "id": 294,
       "keys": [
         "/<status>[\\s\\S]*?当前位置\\s*[:：][^\\n<]*?(?:绿星)[\\s\\S]*?<\\/status>/s"
       ],
@@ -13876,7 +13921,7 @@
       "use_regex": true
     },
     {
-      "id": 294,
+      "id": 295,
       "keys": [
         "/<status>[\\s\\S]*?当前位置\\s*[:：][^\\n<]*?(?:碧蓝之星)[\\s\\S]*?<\\/status>/s"
       ],
@@ -13923,7 +13968,7 @@
       "use_regex": true
     },
     {
-      "id": 295,
+      "id": 296,
       "keys": [
         "/<status>[\\s\\S]*?当前位置\\s*[:：][^\\n<]*?(?:失落世界群【描述性目录名，原著无专名】|失落世界群)[\\s\\S]*?<\\/status>/s"
       ],
@@ -13970,7 +14015,7 @@
       "use_regex": true
     },
     {
-      "id": 296,
+      "id": 297,
       "keys": [
         "/<status>[\\s\\S]*?当前位置\\s*[:：][^\\n<]*?(?:梅洛瓦十三世界【描述性目录名，原著无专名】|梅洛瓦十三世界)[\\s\\S]*?<\\/status>/s"
       ],
@@ -14017,7 +14062,7 @@
       "use_regex": true
     },
     {
-      "id": 297,
+      "id": 298,
       "keys": [
         "/<status>[\\s\\S]*?当前位置\\s*[:：][^\\n<]*?(?:神之国（梅洛瓦首府星）|梅洛瓦神之国|梅洛瓦首府星)[\\s\\S]*?<\\/status>/s"
       ],
@@ -14064,7 +14109,7 @@
       "use_regex": true
     },
     {
-      "id": 298,
+      "id": 299,
       "keys": [
         "/<status>[\\s\\S]*?当前位置\\s*[:：][^\\n<]*?(?:第四区)[\\s\\S]*?<\\/status>/s"
       ],
@@ -14111,7 +14156,7 @@
       "use_regex": true
     },
     {
-      "id": 299,
+      "id": 300,
       "keys": [
         "/<status>[\\s\\S]*?当前位置\\s*[:：][^\\n<]*?(?:远疆)[\\s\\S]*?<\\/status>/s"
       ],
@@ -14158,7 +14203,7 @@
       "use_regex": true
     },
     {
-      "id": 300,
+      "id": 301,
       "keys": [
         "/<status>[\\s\\S]*?当前位置\\s*[:：][^\\n<]*?(?:黑森部族现居末日宇宙【描述性目录名，原著无专名】|黑森部族现居末日宇宙)[\\s\\S]*?<\\/status>/s"
       ],
@@ -14205,7 +14250,7 @@
       "use_regex": true
     },
     {
-      "id": 301,
+      "id": 302,
       "keys": [
         "/<status>[\\s\\S]*?当前位置\\s*[:：][^\\n<]*?(?:海森伍德)[\\s\\S]*?<\\/status>/s"
       ],
@@ -14252,7 +14297,7 @@
       "use_regex": true
     },
     {
-      "id": 302,
+      "id": 303,
       "keys": [
         "/<status>[\\s\\S]*?当前位置\\s*[:：][^\\n<]*?(?:瑞德穆恩（黯月）|瑞德穆恩|黯月)[\\s\\S]*?<\\/status>/s"
       ],
@@ -14299,7 +14344,7 @@
       "use_regex": true
     },
     {
-      "id": 303,
+      "id": 304,
       "keys": [
         "/<status>[\\s\\S]*?当前位置\\s*[:：][^\\n<]*?(?:鸦神圣都)[\\s\\S]*?<\\/status>/s"
       ],
@@ -14346,7 +14391,7 @@
       "use_regex": true
     },
     {
-      "id": 304,
+      "id": 305,
       "keys": [
         "/<status>[\\s\\S]*?当前位置\\s*[:：][^\\n<]*?(?:天神锻炉)[\\s\\S]*?<\\/status>/s"
       ],
@@ -14393,7 +14438,7 @@
       "use_regex": true
     },
     {
-      "id": 305,
+      "id": 306,
       "keys": [
         "/<status>[\\s\\S]*?当前位置\\s*[:：][^\\n<]*?(?:新乡（十五天区首府残片）|十五天区新乡|首府残片新乡)[\\s\\S]*?<\\/status>/s"
       ],
@@ -14440,7 +14485,7 @@
       "use_regex": true
     },
     {
-      "id": 306,
+      "id": 307,
       "keys": [
         "/<status>[\\s\\S]*?当前位置\\s*[:：][^\\n<]*?(?:K市第二中学|第二中学|K市二中)[\\s\\S]*?<\\/status>/s"
       ],
@@ -14487,7 +14532,7 @@
       "use_regex": true
     },
     {
-      "id": 307,
+      "id": 308,
       "keys": [
         "/<status>[\\s\\S]*?当前位置\\s*[:：][^\\n<]*?(?:世界树|世界之树)[\\s\\S]*?<\\/status>/s"
       ],
@@ -14534,7 +14579,7 @@
       "use_regex": true
     },
     {
-      "id": 308,
+      "id": 309,
       "keys": [
         "/<status>[\\s\\S]*?当前位置\\s*[:：][^\\n<]*?(?:帝国高等军事学院)[\\s\\S]*?<\\/status>/s"
       ],
@@ -14581,7 +14626,7 @@
       "use_regex": true
     },
     {
-      "id": 309,
+      "id": 310,
       "keys": [
         "/<status>[\\s\\S]*?当前位置\\s*[:：][^\\n<]*?(?:次元枢纽)[\\s\\S]*?<\\/status>/s"
       ],
@@ -14628,7 +14673,7 @@
       "use_regex": true
     },
     {
-      "id": 310,
+      "id": 311,
       "keys": [
         "/<status>[\\s\\S]*?当前位置\\s*[:：][^\\n<]*?(?:文献馆)[\\s\\S]*?<\\/status>/s"
       ],
@@ -14675,7 +14720,7 @@
       "use_regex": true
     },
     {
-      "id": 311,
+      "id": 312,
       "keys": [
         "/<status>[\\s\\S]*?当前位置\\s*[:：][^\\n<]*?(?:妖怪镇)[\\s\\S]*?<\\/status>/s"
       ],
@@ -14722,7 +14767,7 @@
       "use_regex": true
     },
     {
-      "id": 312,
+      "id": 313,
       "keys": [
         "/<status>[\\s\\S]*?当前位置\\s*[:：][^\\n<]*?(?:森图|森图港)[\\s\\S]*?<\\/status>/s"
       ],
@@ -14769,7 +14814,7 @@
       "use_regex": true
     },
     {
-      "id": 313,
+      "id": 314,
       "keys": [
         "/<status>[\\s\\S]*?当前位置\\s*[:：][^\\n<]*?(?:天空之塔)[\\s\\S]*?<\\/status>/s"
       ],
@@ -14816,7 +14861,7 @@
       "use_regex": true
     },
     {
-      "id": 314,
+      "id": 315,
       "keys": [
         "/<status>[\\s\\S]*?当前位置\\s*[:：][^\\n<]*?(?:巨龙王国)[\\s\\S]*?<\\/status>/s"
       ],
@@ -14863,7 +14908,7 @@
       "use_regex": true
     },
     {
-      "id": 315,
+      "id": 316,
       "keys": [
         "/<status>[\\s\\S]*?当前位置\\s*[:：][^\\n<]*?(?:遗忘花园)[\\s\\S]*?<\\/status>/s"
       ],
@@ -14910,7 +14955,7 @@
       "use_regex": true
     },
     {
-      "id": 316,
+      "id": 317,
       "keys": [
         "/<status>[\\s\\S]*?当前位置\\s*[:：][^\\n<]*?(?:双子星传送站)[\\s\\S]*?<\\/status>/s"
       ],
@@ -14957,7 +15002,7 @@
       "use_regex": true
     },
     {
-      "id": 317,
+      "id": 318,
       "keys": [],
       "secondary_keys": [],
       "comment": "【地点:结尾】",
