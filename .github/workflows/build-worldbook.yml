@@ -6,6 +6,7 @@ on:
     paths:
       - 'assembly/worldbook/build_character_book.py'
       - 'assembly/worldbook/build_character_book_v1_1.py'
+      - 'assembly/worldbook/qa_runtime_worldbook.py'
       - 'assembly/worldbook/trigger_aliases.json'
       - 'assembly/card/build_final_card.py'
       - 'assembly/card/qa_json_import.cjs'
@@ -40,6 +41,7 @@ jobs:
           set -euo pipefail
           mkdir -p assembly/worldbook/dist
           python assembly/worldbook/build_character_book.py | tee assembly/worldbook/dist/希灵帝国_worldbook_build_report.json
+          python assembly/worldbook/qa_runtime_worldbook.py
 
       - name: Build final JSON card
         shell: bash
@@ -57,14 +59,20 @@ jobs:
 
           book_path = Path('assembly/worldbook/dist/希灵帝国_character_book.json')
           card_path = Path('assembly/card/dist/希灵帝国_最终.json')
+          runtime_qa_path = Path('assembly/worldbook/dist/希灵帝国_时间线运行格式QA.json')
           book = json.loads(book_path.read_text(encoding='utf-8'))
           card = json.loads(card_path.read_text(encoding='utf-8'))
+          runtime_qa = json.loads(runtime_qa_path.read_text(encoding='utf-8'))
           entries = book['entries']
 
           assert book['name'] == '希灵帝国'
           assert len(entries) == 335, len(entries)
           assert card['spec'] == 'chara_card_v3' and card['spec_version'] == '3.0'
           assert card['data']['character_book'] == book
+          assert runtime_qa['result'] == 'PASS'
+          assert runtime_qa['sandbox_lines'] == 26
+          assert runtime_qa['chapter_evidence_occurrences'] == 0
+          assert runtime_qa['engineering_metadata_occurrences'] == 0
 
           def count(prefix):
               return sum(1 for e in entries if e['comment'].startswith(prefix))
@@ -103,7 +111,7 @@ jobs:
           bad = ('[initvar]', '变量初始化', '变量列表', '变量更新规则', 'UpdateVariable', 'MagVarUpdate')
           assert not any(any(x in e['comment'] for x in bad) for e in entries)
           assert not Path('assembly/card/dist/希灵帝国_最终.png').exists()
-          print('PASS: 335 entries / 26 split timeline segments / clean timeline runtime / 4 memory infra / triggered double recursion / BLUE10 / NO MVU / JSON only')
+          print('PASS: 335 entries / 26 split timeline segments / clean timeline runtime / 26 audited sandboxes / 4 memory infra / triggered double recursion / BLUE10 / NO MVU / JSON only')
           PY
 
       - name: Commit generated worldbook and final JSON
