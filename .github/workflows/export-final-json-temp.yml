@@ -1,0 +1,25 @@
+name: Export Final JSON Temp
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/export-final-json-temp.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Upload final JSON
+        uses: actions/upload-artifact@v4
+        with:
+          name: xiling-final-json
+          path: assembly/card/dist/希灵帝国_最终.json
+          if-no-files-found: error
+          compression-level: 0
