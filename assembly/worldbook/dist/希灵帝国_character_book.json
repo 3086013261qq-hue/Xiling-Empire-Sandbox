@@ -4332,7 +4332,7 @@
     {
       "id": 94,
       "keys": [
-        "/<story_scene>.*?(?:潘多拉).*?<\\/story_scene>/s"
+        "/<story_scene>.*?(?:潘多拉|潘多拉\\-zero).*?<\\/story_scene>/s"
       ],
       "secondary_keys": [
         "/<story_scene>.*?(?:能力|战斗|交战|攻击|防御|武器|装备|发动|施展|开火|权限|技能|法术|术式|火力|护盾|领域|力量).*?<\\/story_scene>/s"
@@ -4969,7 +4969,7 @@
     {
       "id": 107,
       "keys": [
-        "/<story_scene>.*?(?:希尔维亚·贝拉维拉|希尔维亚|贝拉维拉).*?<\\/story_scene>/s"
+        "/<story_scene>.*?(?:希尔维亚·贝拉维拉|希尔维亚|贝拉维拉|希尔维亚\\ /\\ 贝拉维拉).*?<\\/story_scene>/s"
       ],
       "secondary_keys": [
         "/<story_scene>.*?(?:能力|战斗|交战|攻击|防御|武器|装备|发动|施展|开火|权限|技能|法术|术式|火力|护盾|领域|力量).*?<\\/story_scene>/s"
@@ -5459,7 +5459,7 @@
     {
       "id": 117,
       "keys": [
-        "/<story_scene>.*?(?:父神).*?<\\/story_scene>/s"
+        "/<story_scene>.*?(?:父神|父神（星臣）|星臣).*?<\\/story_scene>/s"
       ],
       "secondary_keys": [
         "/<story_scene>.*?(?:能力|战斗|交战|攻击|防御|武器|装备|发动|施展|开火|权限|技能|法术|术式|火力|护盾|领域|力量).*?<\\/story_scene>/s"
@@ -5557,7 +5557,7 @@
     {
       "id": 119,
       "keys": [
-        "/<story_scene>.*?(?:休伦神王·希拉|希拉|休伦神王).*?<\\/story_scene>/s"
+        "/<story_scene>.*?(?:休伦神王·希拉|希拉|休伦神王|希拉（休伦神王）).*?<\\/story_scene>/s"
       ],
       "secondary_keys": [
         "/<story_scene>.*?(?:能力|战斗|交战|攻击|防御|武器|装备|发动|施展|开火|权限|技能|法术|术式|火力|护盾|领域|力量).*?<\\/story_scene>/s"
@@ -5802,7 +5802,7 @@
     {
       "id": 124,
       "keys": [
-        "/<story_scene>.*?(?:深渊侧希灵·那位大人|深渊侧希灵|深渊希灵).*?<\\/story_scene>/s"
+        "/<story_scene>.*?(?:深渊侧希灵·那位大人|深渊侧希灵|深渊希灵|深渊侧希灵\\ /\\ “那位大人”).*?<\\/story_scene>/s"
       ],
       "secondary_keys": [
         "/<story_scene>.*?(?:能力|战斗|交战|攻击|防御|武器|装备|发动|施展|开火|权限|技能|法术|术式|火力|护盾|领域|力量).*?<\\/story_scene>/s"
@@ -5851,7 +5851,7 @@
     {
       "id": 125,
       "keys": [
-        "/<story_scene>.*?(?:陈晓雪|晓雪).*?<\\/story_scene>/s"
+        "/<story_scene>.*?(?:陈晓雪|晓雪|陈晓雪（晓雪）).*?<\\/story_scene>/s"
       ],
       "secondary_keys": [
         "/<story_scene>.*?(?:能力|战斗|交战|攻击|防御|武器|装备|发动|施展|开火|权限|技能|法术|术式|火力|护盾|领域|力量).*?<\\/story_scene>/s"
@@ -5949,7 +5949,7 @@
     {
       "id": 127,
       "keys": [
-        "/<story_scene>.*?(?:陈晓浅|晓浅).*?<\\/story_scene>/s"
+        "/<story_scene>.*?(?:陈晓浅|晓浅|陈晓浅（晓浅）).*?<\\/story_scene>/s"
       ],
       "secondary_keys": [
         "/<story_scene>.*?(?:能力|战斗|交战|攻击|防御|武器|装备|发动|施展|开火|权限|技能|法术|术式|火力|护盾|领域|力量).*?<\\/story_scene>/s"
@@ -6047,7 +6047,7 @@
     {
       "id": 129,
       "keys": [
-        "/<story_scene>.*?(?:维嘉\\-0001|维嘉0001).*?<\\/story_scene>/s"
+        "/<story_scene>.*?(?:维嘉\\-0001|维嘉0001|维嘉\\-0001（维嘉）|维嘉).*?<\\/story_scene>/s"
       ],
       "secondary_keys": [
         "/<story_scene>.*?(?:能力|战斗|交战|攻击|防御|武器|装备|发动|施展|开火|权限|技能|法术|术式|火力|护盾|领域|力量).*?<\\/story_scene>/s"
@@ -6145,7 +6145,7 @@
     {
       "id": 131,
       "keys": [
-        "/<story_scene>.*?(?:菲娜).*?<\\/story_scene>/s"
+        "/<story_scene>.*?(?:菲娜|安度瓦因·菲娜·奥维加·波普鲁斯·萨多恩凡尼迪·马萨维尔·兰罗兰拉·米奥尔嘉实·图伦索（常用名:菲娜）).*?<\\/story_scene>/s"
       ],
       "secondary_keys": [
         "/<story_scene>.*?(?:能力|战斗|交战|攻击|防御|武器|装备|发动|施展|开火|权限|技能|法术|术式|火力|护盾|领域|力量).*?<\\/story_scene>/s"
@@ -6439,7 +6439,7 @@
     {
       "id": 137,
       "keys": [
-        "/<story_scene>.*?(?:吉尔妹).*?<\\/story_scene>/s"
+        "/<story_scene>.*?(?:吉尔妹|吉尔伽美什（吉尔妹\\ /\\ 姬儿迦美氏）|吉尔伽美什|姬儿迦美氏).*?<\\/story_scene>/s"
       ],
       "secondary_keys": [
         "/<story_scene>.*?(?:能力|战斗|交战|攻击|防御|武器|装备|发动|施展|开火|权限|技能|法术|术式|火力|护盾|领域|力量).*?<\\/story_scene>/s"
@@ -6537,7 +6537,7 @@
     {
       "id": 139,
       "keys": [
-        "/<story_scene>.*?(?:雪华绮晶).*?<\\/story_scene>/s"
+        "/<story_scene>.*?(?:雪华绮晶|雪华绮晶（小绮晶）|小绮晶).*?<\\/story_scene>/s"
       ],
       "secondary_keys": [
         "/<story_scene>.*?(?:能力|战斗|交战|攻击|防御|武器|装备|发动|施展|开火|权限|技能|法术|术式|火力|护盾|领域|力量).*?<\\/story_scene>/s"
@@ -6684,7 +6684,7 @@
     {
       "id": 142,
       "keys": [
-        "/<story_scene>.*?(?:菲丽丝).*?<\\/story_scene>/s"
+        "/<story_scene>.*?(?:菲丽丝|菲丽丝（亚菲丽丝）|亚菲丽丝).*?<\\/story_scene>/s"
       ],
       "secondary_keys": [
         "/<story_scene>.*?(?:能力|战斗|交战|攻击|防御|武器|装备|发动|施展|开火|权限|技能|法术|术式|火力|护盾|领域|力量).*?<\\/story_scene>/s"
@@ -7125,7 +7125,7 @@
     {
       "id": 151,
       "keys": [
-        "/<story_scene>.*?(?:伊利亚斯菲尔·冯·艾因兹贝伦).*?<\\/story_scene>/s"
+        "/<story_scene>.*?(?:伊利亚斯菲尔·冯·艾因兹贝伦|伊利亚斯菲尔·冯·艾因兹贝伦（伊利亚）|伊利亚|伊莉雅).*?<\\/story_scene>/s"
       ],
       "secondary_keys": [
         "/<story_scene>.*?(?:能力|战斗|交战|攻击|防御|武器|装备|发动|施展|开火|权限|技能|法术|术式|火力|护盾|领域|力量).*?<\\/story_scene>/s"
@@ -7174,7 +7174,7 @@
     {
       "id": 152,
       "keys": [
-        "/<story_scene>.*?(?:Rider·美杜莎).*?<\\/story_scene>/s"
+        "/<story_scene>.*?(?:Rider·美杜莎|Rider\\ /\\ 美杜莎|Rider|美杜莎).*?<\\/story_scene>/s"
       ],
       "secondary_keys": [
         "/<story_scene>.*?(?:能力|战斗|交战|攻击|防御|武器|装备|发动|施展|开火|权限|技能|法术|术式|火力|护盾|领域|力量).*?<\\/story_scene>/s"
@@ -7272,7 +7272,7 @@
     {
       "id": 154,
       "keys": [
-        "/<story_scene>.*?(?:Saber·阿尔托利亚).*?<\\/story_scene>/s"
+        "/<story_scene>.*?(?:Saber·阿尔托利亚|Saber\\ /\\ 阿尔托利亚|Saber|阿尔托利亚).*?<\\/story_scene>/s"
       ],
       "secondary_keys": [
         "/<story_scene>.*?(?:能力|战斗|交战|攻击|防御|武器|装备|发动|施展|开火|权限|技能|法术|术式|火力|护盾|领域|力量).*?<\\/story_scene>/s"
@@ -7370,7 +7370,7 @@
     {
       "id": 156,
       "keys": [
-        "/<story_scene>.*?(?:吉安娜).*?<\\/story_scene>/s"
+        "/<story_scene>.*?(?:吉安娜|吉安娜·普罗德摩尔).*?<\\/story_scene>/s"
       ],
       "secondary_keys": [
         "/<story_scene>.*?(?:能力|战斗|交战|攻击|防御|武器|装备|发动|施展|开火|权限|技能|法术|术式|火力|护盾|领域|力量).*?<\\/story_scene>/s"
@@ -7419,7 +7419,7 @@
     {
       "id": 157,
       "keys": [
-        "/<story_scene>.*?(?:希尔瓦娜斯).*?<\\/story_scene>/s"
+        "/<story_scene>.*?(?:希尔瓦娜斯|希尔瓦娜斯·风行者).*?<\\/story_scene>/s"
       ],
       "secondary_keys": [
         "/<story_scene>.*?(?:能力|战斗|交战|攻击|防御|武器|装备|发动|施展|开火|权限|技能|法术|术式|火力|护盾|领域|力量).*?<\\/story_scene>/s"
@@ -7762,7 +7762,7 @@
     {
       "id": 164,
       "keys": [
-        "/<story_scene>.*?(?:红A|红色Archer).*?<\\/story_scene>/s"
+        "/<story_scene>.*?(?:红A|红色Archer|红A\\ /\\ Archer|Archer).*?<\\/story_scene>/s"
       ],
       "secondary_keys": [
         "/<story_scene>.*?(?:能力|战斗|交战|攻击|防御|武器|装备|发动|施展|开火|权限|技能|法术|术式|火力|护盾|领域|力量).*?<\\/story_scene>/s"
@@ -7811,7 +7811,7 @@
     {
       "id": 165,
       "keys": [
-        "/<story_scene>.*?(?:美狄亚).*?<\\/story_scene>/s"
+        "/<story_scene>.*?(?:美狄亚|美狄亚\\ /\\ Caster|Caster).*?<\\/story_scene>/s"
       ],
       "secondary_keys": [
         "/<story_scene>.*?(?:能力|战斗|交战|攻击|防御|武器|装备|发动|施展|开火|权限|技能|法术|术式|火力|护盾|领域|力量).*?<\\/story_scene>/s"
@@ -7860,7 +7860,7 @@
     {
       "id": 166,
       "keys": [
-        "/<story_scene>.*?(?:海格力斯|赫拉克勒斯).*?<\\/story_scene>/s"
+        "/<story_scene>.*?(?:海格力斯|赫拉克勒斯|海格力斯\\ /\\ Berserker|Berserker).*?<\\/story_scene>/s"
       ],
       "secondary_keys": [
         "/<story_scene>.*?(?:能力|战斗|交战|攻击|防御|武器|装备|发动|施展|开火|权限|技能|法术|术式|火力|护盾|领域|力量).*?<\\/story_scene>/s"
@@ -8007,7 +8007,7 @@
     {
       "id": 169,
       "keys": [
-        "/<story_scene>.*?(?:凯瑞甘|莎拉·凯瑞甘).*?<\\/story_scene>/s"
+        "/<story_scene>.*?(?:凯瑞甘|莎拉·凯瑞甘|莎拉·凯瑞甘\\ /\\ 刀锋女王|刀锋女王).*?<\\/story_scene>/s"
       ],
       "secondary_keys": [
         "/<story_scene>.*?(?:能力|战斗|交战|攻击|防御|武器|装备|发动|施展|开火|权限|技能|法术|术式|火力|护盾|领域|力量).*?<\\/story_scene>/s"
