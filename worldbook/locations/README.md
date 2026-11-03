@@ -1,6 +1,6 @@
 # 《希灵帝国》地点层候选目录 v1.0
 
-> 状态：**CANDIDATE INDEX / NOT PRODUCED**  
+> 状态：**P0 SAMPLE PRODUCED / TEMPLATE PENDING USER CONFIRMATION**  
 > 唯一原著源：`《希灵帝国》【精校】作者：远瞳.txt`  
 > 当前基线：13卷主线时间线已封版；设定层、84人物层、84能力层、时间线层均保持冻结。
 
@@ -40,7 +40,7 @@ P0用于长期日常、帝国核心运转、高位世界交互或贯穿全书的
 16. 宁静核心
 17. 故乡世界 / 母星（正式生产时核对两者层级与别称关系，避免错误合并）
 
-`P0 STATUS: 17 CANDIDATES / NOT PRODUCED`
+`P0 STATUS: 1 SAMPLE PRODUCED (003_影子城) / 16 NOT PRODUCED / TEMPLATE PENDING USER CONFIRMATION`
 
 ## 三、P1｜篇章级主舞台
 
@@ -118,11 +118,13 @@ P2优先作为P0/P1父地点中的子区域；只有在反复出现、环境规�
 ## 六、正式生产顺序
 
 1. 先做P0，逐条原著核验；
-2. 先建立一份地点条目模板，以“影子城”作为首个样本；
-3. 样本通过QA后，再批量生产其余P0；
-4. 完成P0总审后进入P1；
-5. P2逐条判断“独立条目 / 父地点子区域 / 仅时间线保留”；
-6. 最后做地点层总索引、触发关键词去重与时间线状态审计。
+2. ✅ 已建立地点条目模板：`worldbook/locations/LOCATION_TEMPLATE.md`；
+3. ✅ 已完成首个样本：`worldbook/locations/P0/003_影子城.md`；
+4. ✅ 已完成样本QA：`qa/054_影子城地点样本原著核验与全栈QA_v1.0.md`；
+5. ⏸ 等待用户确认模板后，再继续其余16个P0；
+6. 完成P0总审后进入P1；
+7. P2逐条判断“独立条目 / 父地点子区域 / 仅时间线保留”；
+8. 最后做地点层总索引、触发关键词去重与时间线状态审计。
 
 ## 七、冻结边界
 
@@ -135,4 +137,4 @@ P2优先作为P0/P1父地点中的子区域；只有在反复出现、环境规�
 
 除非未来发现原著硬证据要求纠错，并得到用户明确授权。
 
-`STATUS: LOCATION CANDIDATE POOL READY / P0=17 / P1=25 / P2=22+ / NEXT=P0 SAMPLE PRODUCTION`
+`STATUS: LOCATION P0 SAMPLE COMPLETE / TEMPLATE PENDING USER CONFIRMATION / P0=1 SAMPLE + 16 WAITING / P1,P2 UNTOUCHED`
