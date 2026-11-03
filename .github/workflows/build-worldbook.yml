@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'assembly/worldbook/build_character_book.py'
+      - 'assembly/worldbook/build_character_book_v1_1.py'
       - 'assembly/worldbook/trigger_aliases.json'
       - 'worldbook/settings/**'
       - 'worldbook/characters/**'
@@ -36,7 +37,7 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p assembly/worldbook/dist
-          python assembly/worldbook/build_character_book.py | tee assembly/worldbook/dist/希灵帝国_worldbook_build_report.json
+          python assembly/worldbook/build_character_book_v1_1.py | tee assembly/worldbook/dist/希灵帝国_worldbook_build_report.json
 
       - name: Validate generated JSON
         shell: bash
@@ -47,14 +48,17 @@ jobs:
           p = Path('assembly/worldbook/dist/希灵帝国_character_book.json')
           book = json.loads(p.read_text(encoding='utf-8'))
           assert book['name'] == '希灵帝国'
-          assert len(book['entries']) == 317, len(book['entries'])
+          assert len(book['entries']) == 318, len(book['entries'])
           assert sum(1 for e in book['entries'] if e['comment'].startswith('时间线｜')) == 13
           assert sum(1 for e in book['entries'] if e['comment'].startswith('时间线｜') and e['enabled']) == 1
+          blue10 = [e for e in book['entries'] if e['comment'] == '蓝灯｜陈俊第一人称叙事视角']
+          assert len(blue10) == 1
+          assert blue10[0]['enabled'] is True and blue10[0]['constant'] is True and blue10[0]['selective'] is False
           bad = ('[initvar]', '变量初始化', '变量列表', '变量更新规则', 'UpdateVariable', 'MagVarUpdate')
           assert not any(any(x in e['comment'] for x in bad) for e in book['entries'])
           assert all(e['extensions']['prevent_recursion'] is False for e in book['entries'])
           assert all(e['extensions']['exclude_recursion'] is False for e in book['entries'])
-          print('PASS: 317 entries / 13 timeline / 1 enabled timeline / NO MVU / ordinary recursion policy')
+          print('PASS: 318 entries / BLUE10 constant / 13 timeline / 1 enabled timeline / NO MVU / ordinary recursion policy')
           PY
 
       - name: Commit generated worldbook
