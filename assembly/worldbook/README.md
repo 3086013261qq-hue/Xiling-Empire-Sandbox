@@ -1,9 +1,9 @@
 # 《希灵帝国》世界书正式装配区
 
-> 当前阶段：**FULLSTACK WORLDBOOK GENERATED / NO MVU / ASSEMBLY QA PASS**  
-> 冻结源基线：`main@a10476469a91b834370c3cf0ae7abca687ea352b`  
+> 当前阶段：**BLUE10 PATCHED / FULLSTACK WORLDBOOK GENERATED / NO MVU / ASSEMBLY QA PASS**  
+> 当前冻结源：以本 README 所在 `main` 最新 HEAD 为准  
 > 工具规范：**咩咩制卡·全栈 v1.0.0**  
-> 冻结原则：`worldbook/settings/**`、`characters/**`、`abilities/**`、`timeline/**`、`locations/**` 全部只读。
+> 冻结原则：除用户本轮明确授权补入 BLUE10「陈俊第一人称叙事视角」外，`worldbook/settings/**`、`characters/**`、`abilities/**`、`timeline/**`、`locations/**` 全部保持冻结。
 
 ## 一、正式装配结果
 
@@ -11,26 +11,27 @@
 
 正式内容池：
 
-- 设定：9 条蓝灯 + 59 条绿灯；
+- 设定：10 条蓝灯 + 59 条绿灯；
 - 人物：84 条；
 - 人物能力：84 条；
 - 时间线：13 个逻辑卷；
 - 地点：54 条。
 
-正式正文合计：**303 条**。
+正式正文合计：**304 条**。
 
-按全栈母版额外保留七组“起始/结尾”空标记，共 14 条，因此最终 `character_book.entries` 为 **317**。
+按全栈母版额外保留七组“起始/结尾”空标记，共 14 条，因此最终 `character_book.entries` 为 **318**。
 
-真实 GitHub Actions 构建已通过，报告：
+当前 GitHub Actions 构建契约：
 
 ```text
 result: PASS
-formal_entries: 303
+formal_entries: 304
 markers: 14
-worldbook_entries: 317
+worldbook_entries: 318
 timeline_entries: 13
 timeline_enabled: 时间线｜第一卷｜帝国苏醒与维迪斯
 mvu: false
+BLUE10: constant / enabled / non-selective
 ```
 
 正式输出：
@@ -47,7 +48,7 @@ assembly/worldbook/dist/希灵帝国_worldbook_build_report.json
 |---|---|---:|
 | 记忆相关 | 本项目无 MVU/无变量存储，仅起止空标记 | 555~551 |
 | 输出规则 | 13 卷时间线，单卷启用 | 550~451 |
-| 核心规则 | 9 条蓝灯，全局常驻 | 450~401 |
+| 核心规则 | 10 条蓝灯，全局常驻 | 450~401 |
 | 核心设定 | 59 条绿灯 + 84 条人物能力 | 400~301 |
 | 主要角色 | P0+P1 共 51 人 | 300~201 |
 | 其他角色 | P2 共 33 人 | 200~101 |
@@ -60,7 +61,8 @@ assembly/worldbook/dist/希灵帝国_worldbook_build_report.json
 - 无关键词
 - `after_char`
 - 概率 100
-- 负责跨时代世界底层不变量，不等于角色提前知道后期真相。
+- BLUE01~09 负责跨时代世界底层不变量，不等于角色提前知道后期真相。
+- BLUE10 负责运行时正文叙事不变量：固定陈俊第一人称“我”，禁止无来源的全知/旁观/其他角色内心视角；它不把客观世界书资料本身改写成第一人称。
 
 ### 绿灯
 - `constant=false`
@@ -111,22 +113,28 @@ assembly/worldbook/dist/希灵帝国_worldbook_build_report.json
 触发别名：
 `assembly/worldbook/trigger_aliases.json`
 
-构建器：
+原 v1.0 装配器：
 `assembly/worldbook/build_character_book.py`
+
+BLUE10 后正式兼容入口：
+`assembly/worldbook/build_character_book_v1_1.py`
 
 自动构建：
 `.github/workflows/build-worldbook.yml`
 
-在仓库根目录也可手工执行：
+在仓库根目录手工执行：
 
 ```bash
-python assembly/worldbook/build_character_book.py
+python assembly/worldbook/build_character_book_v1_1.py
 ```
 
-构建器硬检查：
+v1.1 兼容入口只对 v1.0 中五个冻结锚做精确单次替换：BLUE 数量、formal 数量、entries 数量、蓝灯注释与蓝灯 order 范围；任一锚缺失或重复即失败，不静默修改其他业务逻辑。
 
-- 9 / 59 / 84 / 84 / 13 / 54 数量；
-- 303 正文 + 14 标记 = 317 entries；
+当前构建硬检查：
+
+- 10 / 59 / 84 / 84 / 13 / 54 数量；
+- 304 正文 + 14 标记 = 318 entries；
+- BLUE10 必须唯一、启用、常驻、非 selective；
 - 不出现 MVU 系统条目；
 - 第二卷特别篇插入锚存在；
 - 主要/其他角色分区为 51 / 33；
@@ -142,20 +150,30 @@ python assembly/worldbook/build_character_book.py
 - `泡泡` / `小泡泡`；
 - `希灵` / `深渊侧希灵`。
 
-这属于触发层实机消歧观察，不是人物/能力正文缺失，也不授权修改冻结正文。若 Android / SillyTavern 实机出现双召回，再只在装配层做最小兼容修正。
+新增 BLUE10 还需在最终角色卡实机观察：普通叙事是否持续保持陈俊第一人称“我”，以及多人场景中是否出现无来源的他人内心描写或全知切镜。
+
+这属于触发/叙事层实机观察，不是人物/能力正文缺失，也不授权修改冻结正文。若 Android / SillyTavern 实机出现问题，再只在装配层做最小兼容修正。
 
 ## 八、冻结边界
 
 本目录是“装配层”，不反向改写源码层。
 
-发现触发别名或装配参数问题时，优先修：
+本轮唯一设定层例外是用户明确授权新增：
+
+- `worldbook/settings/blue-global/010_陈俊第一人称叙事视角.md`
+
+其余发现触发别名或装配参数问题时，仍优先修：
 
 - `assembly/worldbook/trigger_aliases.json`
-- `assembly/worldbook/build_character_book.py`
+- `assembly/worldbook/build_character_book_v1_1.py`
+- `.github/workflows/build-worldbook.yml`
 
-不得为了装配方便改写已经封版的设定、人物、能力、时间线或地点正文。
+不得为了装配方便改写已经封版的人物、能力、时间线、地点或其余设定正文。
 
-正式装配总审计：
+历史正式装配总审计：
 `qa/065_世界书全栈无MVU正式装配与触发总审计_v1.0.md`
 
-`STATUS: 317 ENTRIES GENERATED / NO MVU / ASSEMBLY QA PASS / REAL-DEVICE TRIGGER CHECK NEXT`
+BLUE10 补充审计：
+`qa/066_BLUE10第一人称叙事约束补充与全栈再装配QA_v1.0.md`
+
+`STATUS: 318 ENTRIES GENERATED / BLUE10 CONSTANT / NO MVU / ASSEMBLY QA PASS / FINAL CARD ASSEMBLY NEXT`
