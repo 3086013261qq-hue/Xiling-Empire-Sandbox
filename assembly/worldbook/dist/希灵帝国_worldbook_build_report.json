@@ -1,0 +1,15 @@
+{
+  "result": "PASS",
+  "formal_entries": 303,
+  "markers": 14,
+  "worldbook_entries": 317,
+  "timeline_entries": 13,
+  "timeline_enabled": [
+    "时间线｜第一卷｜帝国苏醒与维迪斯"
+  ],
+  "mvu": false,
+  "outputs": [
+    "assembly/worldbook/dist/希灵帝国_character_book.json",
+    "assembly/worldbook/dist/希灵帝国_世界书条目与触发清单.csv"
+  ]
+}
