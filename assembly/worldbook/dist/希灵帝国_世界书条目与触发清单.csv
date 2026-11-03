@@ -88,7 +88,7 @@
 86,87,绿灯｜世界级技术仲裁机关与能力边界,True,False,True,after_char,4,True,361.66379,/<story_scene>.*?(?:世界级技术仲裁机关与能力边界|世界级技术仲裁机关|能力边界).*?<\/story_scene>/s,
 87,88,绿灯｜技术评价条件权限规模与强度误区,True,False,True,after_char,4,True,361.0,/<story_scene>.*?(?:技术评价条件权限规模与强度误区|技术评价条件权限规模|强度误区).*?<\/story_scene>/s,
 88,89,能力｜陈俊,True,False,True,after_char,4,True,360.0,/<story_scene>.*?(?:陈俊|阿俊).*?<\/story_scene>/s,/<story_scene>.*?(?:能力|战斗|交战|攻击|防御|武器|装备|发动|施展|开火|权限|技能|法术|术式|火力|护盾|领域|力量).*?<\/story_scene>/s
-89,90,能力｜珊多拉·凯尔薇·尤拉西斯,True,False,True,after_char,4,True,359.3012,/<story_scene>.*?(?:珊多拉·凯尔薇·尤拉西斯).*?<\/story_scene>/s,/<story_scene>.*?(?:能力|战斗|交战|攻击|防御|武器|装备|发动|施展|开火|权限|技能|法术|术式|火力|护盾|领域|力量).*?<\/story_scene>/s
+89,90,能力｜珊多拉·凯尔薇·尤拉西斯,True,False,True,after_char,4,True,359.3012,/<story_scene>.*?(?:珊多拉·凯尔薇·尤拉西斯|珊多拉|珊多拉·凯尔薇).*?<\/story_scene>/s,/<story_scene>.*?(?:能力|战斗|交战|攻击|防御|武器|装备|发动|施展|开火|权限|技能|法术|术式|火力|护盾|领域|力量).*?<\/story_scene>/s
 90,91,能力｜陈倩,True,False,True,after_char,4,True,358.60241,/<story_scene>.*?(?:陈倩).*?<\/story_scene>/s,/<story_scene>.*?(?:能力|战斗|交战|攻击|防御|武器|装备|发动|施展|开火|权限|技能|法术|术式|火力|护盾|领域|力量).*?<\/story_scene>/s
 91,92,能力｜许浅浅,True,False,True,after_char,4,True,357.90361,/<story_scene>.*?(?:许浅浅|浅浅).*?<\/story_scene>/s,/<story_scene>.*?(?:能力|战斗|交战|攻击|防御|武器|装备|发动|施展|开火|权限|技能|法术|术式|火力|护盾|领域|力量).*?<\/story_scene>/s
 92,93,能力｜林雪,True,False,True,after_char,4,True,357.20482,/<story_scene>.*?(?:林雪).*?<\/story_scene>/s,/<story_scene>.*?(?:能力|战斗|交战|攻击|防御|武器|装备|发动|施展|开火|权限|技能|法术|术式|火力|护盾|领域|力量).*?<\/story_scene>/s
@@ -105,7 +105,7 @@
 103,104,能力｜阿西达,True,False,True,after_char,4,True,349.51807,/<story_scene>.*?(?:阿西达).*?<\/story_scene>/s,/<story_scene>.*?(?:能力|战斗|交战|攻击|防御|武器|装备|发动|施展|开火|权限|技能|法术|术式|火力|护盾|领域|力量).*?<\/story_scene>/s
 104,105,能力｜阿西多拉,True,False,True,after_char,4,True,348.81928,/<story_scene>.*?(?:阿西多拉).*?<\/story_scene>/s,/<story_scene>.*?(?:能力|战斗|交战|攻击|防御|武器|装备|发动|施展|开火|权限|技能|法术|术式|火力|护盾|领域|力量).*?<\/story_scene>/s
 105,106,能力｜希灵,True,False,True,after_char,4,True,348.12048,/<story_scene>.*?(?:希灵|网络人格希灵|独立人格希灵).*?<\/story_scene>/s,/<story_scene>.*?(?:能力|战斗|交战|攻击|防御|武器|装备|发动|施展|开火|权限|技能|法术|术式|火力|护盾|领域|力量).*?<\/story_scene>/s
-106,107,能力｜希尔维亚·贝拉维拉,True,False,True,after_char,4,True,347.42169,/<story_scene>.*?(?:希尔维亚·贝拉维拉).*?<\/story_scene>/s,/<story_scene>.*?(?:能力|战斗|交战|攻击|防御|武器|装备|发动|施展|开火|权限|技能|法术|术式|火力|护盾|领域|力量).*?<\/story_scene>/s
+106,107,能力｜希尔维亚·贝拉维拉,True,False,True,after_char,4,True,347.42169,/<story_scene>.*?(?:希尔维亚·贝拉维拉|希尔维亚|贝拉维拉).*?<\/story_scene>/s,/<story_scene>.*?(?:能力|战斗|交战|攻击|防御|武器|装备|发动|施展|开火|权限|技能|法术|术式|火力|护盾|领域|力量).*?<\/story_scene>/s
 107,108,能力｜渡鸦001,True,False,True,after_char,4,True,346.72289,/<story_scene>.*?(?:渡鸦001|渡鸦零零一).*?<\/story_scene>/s,/<story_scene>.*?(?:能力|战斗|交战|攻击|防御|武器|装备|发动|施展|开火|权限|技能|法术|术式|火力|护盾|领域|力量).*?<\/story_scene>/s
 108,109,能力｜卡特·卡洛,True,False,True,after_char,4,True,346.0241,/<story_scene>.*?(?:卡特·卡洛|卡特).*?<\/story_scene>/s,/<story_scene>.*?(?:能力|战斗|交战|攻击|防御|武器|装备|发动|施展|开火|权限|技能|法术|术式|火力|护盾|领域|力量).*?<\/story_scene>/s
 109,110,能力｜文森特·卡洛,True,False,True,after_char,4,True,345.3253,/<story_scene>.*?(?:文森特·卡洛|文森特).*?<\/story_scene>/s,/<story_scene>.*?(?:能力|战斗|交战|攻击|防御|武器|装备|发动|施展|开火|权限|技能|法术|术式|火力|护盾|领域|力量).*?<\/story_scene>/s
@@ -118,11 +118,11 @@
 116,117,能力｜父神,True,False,True,after_char,4,True,340.43373,/<story_scene>.*?(?:父神).*?<\/story_scene>/s,/<story_scene>.*?(?:能力|战斗|交战|攻击|防御|武器|装备|发动|施展|开火|权限|技能|法术|术式|火力|护盾|领域|力量).*?<\/story_scene>/s
 117,118,能力｜迦迦,True,False,True,after_char,4,True,339.73494,/<story_scene>.*?(?:迦迦).*?<\/story_scene>/s,/<story_scene>.*?(?:能力|战斗|交战|攻击|防御|武器|装备|发动|施展|开火|权限|技能|法术|术式|火力|护盾|领域|力量).*?<\/story_scene>/s
 118,119,能力｜休伦神王·希拉,True,False,True,after_char,4,True,339.03614,/<story_scene>.*?(?:休伦神王·希拉|希拉|休伦神王).*?<\/story_scene>/s,/<story_scene>.*?(?:能力|战斗|交战|攻击|防御|武器|装备|发动|施展|开火|权限|技能|法术|术式|火力|护盾|领域|力量).*?<\/story_scene>/s
-119,120,能力｜哈兰·克鲁瓦·莱瓦莱特,True,False,True,after_char,4,True,338.33735,/<story_scene>.*?(?:哈兰·克鲁瓦·莱瓦莱特).*?<\/story_scene>/s,/<story_scene>.*?(?:能力|战斗|交战|攻击|防御|武器|装备|发动|施展|开火|权限|技能|法术|术式|火力|护盾|领域|力量).*?<\/story_scene>/s
+119,120,能力｜哈兰·克鲁瓦·莱瓦莱特,True,False,True,after_char,4,True,338.33735,/<story_scene>.*?(?:哈兰·克鲁瓦·莱瓦莱特|哈兰).*?<\/story_scene>/s,/<story_scene>.*?(?:能力|战斗|交战|攻击|防御|武器|装备|发动|施展|开火|权限|技能|法术|术式|火力|护盾|领域|力量).*?<\/story_scene>/s
 120,121,能力｜扎多姆,True,False,True,after_char,4,True,337.63855,/<story_scene>.*?(?:扎多姆).*?<\/story_scene>/s,/<story_scene>.*?(?:能力|战斗|交战|攻击|防御|武器|装备|发动|施展|开火|权限|技能|法术|术式|火力|护盾|领域|力量).*?<\/story_scene>/s
 121,122,能力｜奥卡姆,True,False,True,after_char,4,True,336.93976,/<story_scene>.*?(?:奥卡姆).*?<\/story_scene>/s,/<story_scene>.*?(?:能力|战斗|交战|攻击|防御|武器|装备|发动|施展|开火|权限|技能|法术|术式|火力|护盾|领域|力量).*?<\/story_scene>/s
 122,123,能力｜萨维,True,False,True,after_char,4,True,336.24096,/<story_scene>.*?(?:萨维).*?<\/story_scene>/s,/<story_scene>.*?(?:能力|战斗|交战|攻击|防御|武器|装备|发动|施展|开火|权限|技能|法术|术式|火力|护盾|领域|力量).*?<\/story_scene>/s
-123,124,能力｜深渊侧希灵·那位大人,True,False,True,after_char,4,True,335.54217,/<story_scene>.*?(?:深渊侧希灵·那位大人).*?<\/story_scene>/s,/<story_scene>.*?(?:能力|战斗|交战|攻击|防御|武器|装备|发动|施展|开火|权限|技能|法术|术式|火力|护盾|领域|力量).*?<\/story_scene>/s
+123,124,能力｜深渊侧希灵·那位大人,True,False,True,after_char,4,True,335.54217,/<story_scene>.*?(?:深渊侧希灵·那位大人|深渊侧希灵|深渊希灵).*?<\/story_scene>/s,/<story_scene>.*?(?:能力|战斗|交战|攻击|防御|武器|装备|发动|施展|开火|权限|技能|法术|术式|火力|护盾|领域|力量).*?<\/story_scene>/s
 124,125,能力｜陈晓雪,True,False,True,after_char,4,True,334.84337,/<story_scene>.*?(?:陈晓雪|晓雪).*?<\/story_scene>/s,/<story_scene>.*?(?:能力|战斗|交战|攻击|防御|武器|装备|发动|施展|开火|权限|技能|法术|术式|火力|护盾|领域|力量).*?<\/story_scene>/s
 125,126,能力｜晓珊,True,False,True,after_char,4,True,334.14458,/<story_scene>.*?(?:晓珊).*?<\/story_scene>/s,/<story_scene>.*?(?:能力|战斗|交战|攻击|防御|武器|装备|发动|施展|开火|权限|技能|法术|术式|火力|护盾|领域|力量).*?<\/story_scene>/s
 126,127,能力｜陈晓浅,True,False,True,after_char,4,True,333.44578,/<story_scene>.*?(?:陈晓浅|晓浅).*?<\/story_scene>/s,/<story_scene>.*?(?:能力|战斗|交战|攻击|防御|武器|装备|发动|施展|开火|权限|技能|法术|术式|火力|护盾|领域|力量).*?<\/story_scene>/s
@@ -174,11 +174,11 @@
 172,173,【核心设定:结尾】,True,True,False,after_char,4,False,301,,
 173,174,【主要角色:起始】,True,True,False,after_char,4,False,300,,
 174,175,角色｜陈俊,True,False,True,after_char,4,True,299.0,/<story_scene>.*?(?:陈俊|阿俊).*?<\/story_scene>/s,
-175,176,角色｜珊多拉·凯尔薇·尤拉西斯,True,False,True,after_char,4,True,297.06,/<story_scene>.*?(?:珊多拉·凯尔薇·尤拉西斯).*?<\/story_scene>/s,
+175,176,角色｜珊多拉·凯尔薇·尤拉西斯,True,False,True,after_char,4,True,297.06,/<story_scene>.*?(?:珊多拉·凯尔薇·尤拉西斯|珊多拉|珊多拉·凯尔薇).*?<\/story_scene>/s,
 176,177,角色｜陈倩,True,False,True,after_char,4,True,295.12,/<story_scene>.*?(?:陈倩).*?<\/story_scene>/s,
 177,178,角色｜许浅浅,True,False,True,after_char,4,True,293.18,/<story_scene>.*?(?:许浅浅|浅浅).*?<\/story_scene>/s,
 178,179,角色｜林雪,True,False,True,after_char,4,True,291.24,/<story_scene>.*?(?:林雪).*?<\/story_scene>/s,
-179,180,角色｜潘多拉-zero,True,False,True,after_char,4,True,289.3,/<story_scene>.*?(?:潘多拉\-zero).*?<\/story_scene>/s,
+179,180,角色｜潘多拉-zero,True,False,True,after_char,4,True,289.3,/<story_scene>.*?(?:潘多拉\-zero|潘多拉).*?<\/story_scene>/s,
 180,181,角色｜维斯卡,True,False,True,after_char,4,True,287.36,/<story_scene>.*?(?:维斯卡).*?<\/story_scene>/s,
 181,182,角色｜莉莉娜,True,False,True,after_char,4,True,285.42,/<story_scene>.*?(?:莉莉娜).*?<\/story_scene>/s,
 182,183,角色｜泡泡,True,False,True,after_char,4,True,283.48,/<story_scene>.*?(?:泡泡).*?<\/story_scene>/s,
@@ -191,7 +191,7 @@
 189,190,角色｜阿西达,True,False,True,after_char,4,True,269.9,/<story_scene>.*?(?:阿西达).*?<\/story_scene>/s,
 190,191,角色｜阿西多拉,True,False,True,after_char,4,True,267.96,/<story_scene>.*?(?:阿西多拉).*?<\/story_scene>/s,
 191,192,角色｜希灵,True,False,True,after_char,4,True,266.02,/<story_scene>.*?(?:希灵|网络人格希灵|独立人格希灵).*?<\/story_scene>/s,
-192,193,角色｜希尔维亚 / 贝拉维拉,True,False,True,after_char,4,True,264.08,/<story_scene>.*?(?:希尔维亚\ /\ 贝拉维拉).*?<\/story_scene>/s,
+192,193,角色｜希尔维亚 / 贝拉维拉,True,False,True,after_char,4,True,264.08,/<story_scene>.*?(?:希尔维亚\ /\ 贝拉维拉|希尔维亚|贝拉维拉).*?<\/story_scene>/s,
 193,194,角色｜渡鸦001,True,False,True,after_char,4,True,262.14,/<story_scene>.*?(?:渡鸦001|渡鸦零零一).*?<\/story_scene>/s,
 194,195,角色｜卡特·卡洛,True,False,True,after_char,4,True,260.2,/<story_scene>.*?(?:卡特·卡洛|卡特).*?<\/story_scene>/s,
 195,196,角色｜文森特·卡洛,True,False,True,after_char,4,True,258.26,/<story_scene>.*?(?:文森特·卡洛|文森特).*?<\/story_scene>/s,
@@ -201,34 +201,34 @@
 199,200,角色｜伊尔森,True,False,True,after_char,4,True,250.5,/<story_scene>.*?(?:伊尔森|依尔森).*?<\/story_scene>/s,
 200,201,角色｜肯瑟,True,False,True,after_char,4,True,248.56,/<story_scene>.*?(?:肯瑟).*?<\/story_scene>/s,
 201,202,角色｜琳,True,False,True,after_char,4,True,246.62,/<story_scene>.*?(?:琳).*?<\/story_scene>/s,
-202,203,角色｜父神（星臣）,True,False,True,after_char,4,True,244.68,/<story_scene>.*?(?:父神（星臣）).*?<\/story_scene>/s,
+202,203,角色｜父神（星臣）,True,False,True,after_char,4,True,244.68,/<story_scene>.*?(?:父神（星臣）|父神|星臣).*?<\/story_scene>/s,
 203,204,角色｜迦迦,True,False,True,after_char,4,True,242.74,/<story_scene>.*?(?:迦迦).*?<\/story_scene>/s,
-204,205,角色｜希拉（休伦神王）,True,False,True,after_char,4,True,240.8,/<story_scene>.*?(?:希拉（休伦神王）).*?<\/story_scene>/s,
-205,206,角色｜哈兰·克鲁瓦·莱瓦莱特,True,False,True,after_char,4,True,238.86,/<story_scene>.*?(?:哈兰·克鲁瓦·莱瓦莱特).*?<\/story_scene>/s,
+204,205,角色｜希拉（休伦神王）,True,False,True,after_char,4,True,240.8,/<story_scene>.*?(?:希拉（休伦神王）|希拉|休伦神王).*?<\/story_scene>/s,
+205,206,角色｜哈兰·克鲁瓦·莱瓦莱特,True,False,True,after_char,4,True,238.86,/<story_scene>.*?(?:哈兰·克鲁瓦·莱瓦莱特|哈兰).*?<\/story_scene>/s,
 206,207,角色｜扎多姆,True,False,True,after_char,4,True,236.92,/<story_scene>.*?(?:扎多姆).*?<\/story_scene>/s,
 207,208,角色｜奥卡姆,True,False,True,after_char,4,True,234.98,/<story_scene>.*?(?:奥卡姆).*?<\/story_scene>/s,
 208,209,角色｜萨维,True,False,True,after_char,4,True,233.04,/<story_scene>.*?(?:萨维).*?<\/story_scene>/s,
-209,210,角色｜深渊侧希灵 / “那位大人”,True,False,True,after_char,4,True,231.1,/<story_scene>.*?(?:深渊侧希灵\ /\ “那位大人”).*?<\/story_scene>/s,
-210,211,角色｜陈晓雪（晓雪）,True,False,True,after_char,4,True,229.16,/<story_scene>.*?(?:陈晓雪（晓雪）).*?<\/story_scene>/s,
+209,210,角色｜深渊侧希灵 / “那位大人”,True,False,True,after_char,4,True,231.1,/<story_scene>.*?(?:深渊侧希灵\ /\ “那位大人”|深渊侧希灵|深渊希灵).*?<\/story_scene>/s,
+210,211,角色｜陈晓雪（晓雪）,True,False,True,after_char,4,True,229.16,/<story_scene>.*?(?:陈晓雪（晓雪）|陈晓雪|晓雪).*?<\/story_scene>/s,
 211,212,角色｜晓珊,True,False,True,after_char,4,True,227.22,/<story_scene>.*?(?:晓珊).*?<\/story_scene>/s,
-212,213,角色｜陈晓浅（晓浅）,True,False,True,after_char,4,True,225.28,/<story_scene>.*?(?:陈晓浅（晓浅）).*?<\/story_scene>/s,
+212,213,角色｜陈晓浅（晓浅）,True,False,True,after_char,4,True,225.28,/<story_scene>.*?(?:陈晓浅（晓浅）|陈晓浅|晓浅).*?<\/story_scene>/s,
 213,214,角色｜盖亚,True,False,True,after_char,4,True,223.34,/<story_scene>.*?(?:盖亚).*?<\/story_scene>/s,
-214,215,角色｜维嘉-0001（维嘉）,True,False,True,after_char,4,True,221.4,/<story_scene>.*?(?:维嘉\-0001（维嘉）).*?<\/story_scene>/s,
+214,215,角色｜维嘉-0001（维嘉）,True,False,True,after_char,4,True,221.4,/<story_scene>.*?(?:维嘉\-0001（维嘉）|维嘉\-0001|维嘉0001|维嘉).*?<\/story_scene>/s,
 215,216,角色｜西卡罗,True,False,True,after_char,4,True,219.46,/<story_scene>.*?(?:西卡罗).*?<\/story_scene>/s,
-216,217,角色｜安度瓦因·菲娜·奥维加·波普鲁斯·萨多恩凡尼迪·马萨维尔·兰罗兰拉·米奥尔嘉实·图伦索（常用名:菲娜）,True,False,True,after_char,4,True,217.52,/<story_scene>.*?(?:安度瓦因·菲娜·奥维加·波普鲁斯·萨多恩凡尼迪·马萨维尔·兰罗兰拉·米奥尔嘉实·图伦索（常用名:菲娜）).*?<\/story_scene>/s,
+216,217,角色｜安度瓦因·菲娜·奥维加·波普鲁斯·萨多恩凡尼迪·马萨维尔·兰罗兰拉·米奥尔嘉实·图伦索（常用名:菲娜）,True,False,True,after_char,4,True,217.52,/<story_scene>.*?(?:安度瓦因·菲娜·奥维加·波普鲁斯·萨多恩凡尼迪·马萨维尔·兰罗兰拉·米奥尔嘉实·图伦索（常用名:菲娜）|菲娜).*?<\/story_scene>/s,
 217,218,角色｜麦迪雯,True,False,True,after_char,4,True,215.58,/<story_scene>.*?(?:麦迪雯).*?<\/story_scene>/s,
 218,219,角色｜水银灯,True,False,True,after_char,4,True,213.64,/<story_scene>.*?(?:水银灯).*?<\/story_scene>/s,
 219,220,角色｜毒岛冴子,True,False,True,after_char,4,True,211.7,/<story_scene>.*?(?:毒岛冴子|冴子).*?<\/story_scene>/s,
 220,221,角色｜佐天泪子,True,False,True,after_char,4,True,209.76,/<story_scene>.*?(?:佐天泪子|佐天).*?<\/story_scene>/s,
 221,222,角色｜御坂10031,True,False,True,after_char,4,True,207.82,/<story_scene>.*?(?:御坂10031|10031号).*?<\/story_scene>/s,
-222,223,角色｜吉尔伽美什（吉尔妹 / 姬儿迦美氏）,True,False,True,after_char,4,True,205.88,/<story_scene>.*?(?:吉尔伽美什（吉尔妹\ /\ 姬儿迦美氏）).*?<\/story_scene>/s,
+222,223,角色｜吉尔伽美什（吉尔妹 / 姬儿迦美氏）,True,False,True,after_char,4,True,205.88,/<story_scene>.*?(?:吉尔伽美什（吉尔妹\ /\ 姬儿迦美氏）|吉尔伽美什|吉尔妹|姬儿迦美氏).*?<\/story_scene>/s,
 223,224,角色｜八云蓝,True,False,True,after_char,4,True,203.94,/<story_scene>.*?(?:八云蓝).*?<\/story_scene>/s,
-224,225,角色｜雪华绮晶（小绮晶）,True,False,True,after_char,4,True,202.0,/<story_scene>.*?(?:雪华绮晶（小绮晶）).*?<\/story_scene>/s,
+224,225,角色｜雪华绮晶（小绮晶）,True,False,True,after_char,4,True,202.0,/<story_scene>.*?(?:雪华绮晶（小绮晶）|雪华绮晶|小绮晶).*?<\/story_scene>/s,
 225,226,【主要角色:结尾】,True,True,False,after_char,4,False,201,,
 226,227,【其他角色:起始】,True,True,False,after_char,4,False,200,,
 227,228,角色｜丁玲,True,False,True,after_char,4,True,199.0,/<story_scene>.*?(?:丁玲).*?<\/story_scene>/s,
 228,229,角色｜林风,True,False,True,after_char,4,True,195.96875,/<story_scene>.*?(?:林风).*?<\/story_scene>/s,
-229,230,角色｜菲丽丝（亚菲丽丝）,True,False,True,after_char,4,True,192.9375,/<story_scene>.*?(?:菲丽丝（亚菲丽丝）).*?<\/story_scene>/s,
+229,230,角色｜菲丽丝（亚菲丽丝）,True,False,True,after_char,4,True,192.9375,/<story_scene>.*?(?:菲丽丝（亚菲丽丝）|菲丽丝|亚菲丽丝).*?<\/story_scene>/s,
 230,231,角色｜纱姬娜,True,False,True,after_char,4,True,189.90625,/<story_scene>.*?(?:纱姬娜).*?<\/story_scene>/s,
 231,232,角色｜索娜,True,False,True,after_char,4,True,186.875,/<story_scene>.*?(?:索娜).*?<\/story_scene>/s,
 232,233,角色｜罗兰盖尔,True,False,True,after_char,4,True,183.84375,/<story_scene>.*?(?:罗兰盖尔|罗兰·盖尔).*?<\/story_scene>/s,
@@ -237,25 +237,25 @@
 235,236,角色｜博丽灵梦,True,False,True,after_char,4,True,174.75,/<story_scene>.*?(?:博丽灵梦|灵梦).*?<\/story_scene>/s,
 236,237,角色｜御坂美琴,True,False,True,after_char,4,True,171.71875,/<story_scene>.*?(?:御坂美琴|美琴).*?<\/story_scene>/s,
 237,238,角色｜远坂凛,True,False,True,after_char,4,True,168.6875,/<story_scene>.*?(?:远坂凛).*?<\/story_scene>/s,
-238,239,角色｜伊利亚斯菲尔·冯·艾因兹贝伦（伊利亚）,True,False,True,after_char,4,True,165.65625,/<story_scene>.*?(?:伊利亚斯菲尔·冯·艾因兹贝伦（伊利亚）).*?<\/story_scene>/s,
-239,240,角色｜Rider / 美杜莎,True,False,True,after_char,4,True,162.625,/<story_scene>.*?(?:Rider\ /\ 美杜莎).*?<\/story_scene>/s,
+238,239,角色｜伊利亚斯菲尔·冯·艾因兹贝伦（伊利亚）,True,False,True,after_char,4,True,165.65625,/<story_scene>.*?(?:伊利亚斯菲尔·冯·艾因兹贝伦（伊利亚）|伊利亚|伊莉雅).*?<\/story_scene>/s,
+239,240,角色｜Rider / 美杜莎,True,False,True,after_char,4,True,162.625,/<story_scene>.*?(?:Rider\ /\ 美杜莎|Rider|美杜莎).*?<\/story_scene>/s,
 240,241,角色｜佐佐木小次郎,True,False,True,after_char,4,True,159.59375,/<story_scene>.*?(?:佐佐木小次郎|小次郎).*?<\/story_scene>/s,
-241,242,角色｜Saber / 阿尔托利亚,True,False,True,after_char,4,True,156.5625,/<story_scene>.*?(?:Saber\ /\ 阿尔托利亚).*?<\/story_scene>/s,
+241,242,角色｜Saber / 阿尔托利亚,True,False,True,after_char,4,True,156.5625,/<story_scene>.*?(?:Saber\ /\ 阿尔托利亚|Saber|阿尔托利亚).*?<\/story_scene>/s,
 242,243,角色｜香草,True,False,True,after_char,4,True,153.53125,/<story_scene>.*?(?:香草).*?<\/story_scene>/s,
-243,244,角色｜吉安娜·普罗德摩尔,True,False,True,after_char,4,True,150.5,/<story_scene>.*?(?:吉安娜·普罗德摩尔).*?<\/story_scene>/s,
-244,245,角色｜希尔瓦娜斯·风行者,True,False,True,after_char,4,True,147.46875,/<story_scene>.*?(?:希尔瓦娜斯·风行者).*?<\/story_scene>/s,
+243,244,角色｜吉安娜·普罗德摩尔,True,False,True,after_char,4,True,150.5,/<story_scene>.*?(?:吉安娜·普罗德摩尔|吉安娜).*?<\/story_scene>/s,
+244,245,角色｜希尔瓦娜斯·风行者,True,False,True,after_char,4,True,147.46875,/<story_scene>.*?(?:希尔瓦娜斯·风行者|希尔瓦娜斯).*?<\/story_scene>/s,
 245,246,角色｜詹姆斯·雷诺,True,False,True,after_char,4,True,144.4375,/<story_scene>.*?(?:詹姆斯·雷诺|雷诺).*?<\/story_scene>/s,
 246,247,角色｜泽拉图,True,False,True,after_char,4,True,141.40625,/<story_scene>.*?(?:泽拉图).*?<\/story_scene>/s,
 247,248,角色｜阿奴丽丽,True,False,True,after_char,4,True,138.375,/<story_scene>.*?(?:阿奴丽丽).*?<\/story_scene>/s,
 248,249,角色｜图拉佐,True,False,True,after_char,4,True,135.34375,/<story_scene>.*?(?:图拉佐).*?<\/story_scene>/s,
 249,250,角色｜索娅,True,False,True,after_char,4,True,132.3125,/<story_scene>.*?(?:索娅).*?<\/story_scene>/s,
 250,251,角色｜库丘林,True,False,True,after_char,4,True,129.28125,/<story_scene>.*?(?:库丘林|库·丘林).*?<\/story_scene>/s,
-251,252,角色｜红A / Archer,True,False,True,after_char,4,True,126.25,/<story_scene>.*?(?:红A\ /\ Archer).*?<\/story_scene>/s,
-252,253,角色｜美狄亚 / Caster,True,False,True,after_char,4,True,123.21875,/<story_scene>.*?(?:美狄亚\ /\ Caster).*?<\/story_scene>/s,
-253,254,角色｜海格力斯 / Berserker,True,False,True,after_char,4,True,120.1875,/<story_scene>.*?(?:海格力斯\ /\ Berserker).*?<\/story_scene>/s,
+251,252,角色｜红A / Archer,True,False,True,after_char,4,True,126.25,/<story_scene>.*?(?:红A\ /\ Archer|红A|Archer|红色Archer).*?<\/story_scene>/s,
+252,253,角色｜美狄亚 / Caster,True,False,True,after_char,4,True,123.21875,/<story_scene>.*?(?:美狄亚\ /\ Caster|美狄亚|Caster).*?<\/story_scene>/s,
+253,254,角色｜海格力斯 / Berserker,True,False,True,after_char,4,True,120.1875,/<story_scene>.*?(?:海格力斯\ /\ Berserker|海格力斯|赫拉克勒斯|Berserker).*?<\/story_scene>/s,
 254,255,角色｜雾雨魔理沙,True,False,True,after_char,4,True,117.15625,/<story_scene>.*?(?:雾雨魔理沙|魔理沙).*?<\/story_scene>/s,
 255,256,角色｜西行寺幽幽子,True,False,True,after_char,4,True,114.125,/<story_scene>.*?(?:西行寺幽幽子|幽幽子).*?<\/story_scene>/s,
-256,257,角色｜莎拉·凯瑞甘 / 刀锋女王,True,False,True,after_char,4,True,111.09375,/<story_scene>.*?(?:莎拉·凯瑞甘\ /\ 刀锋女王).*?<\/story_scene>/s,
+256,257,角色｜莎拉·凯瑞甘 / 刀锋女王,True,False,True,after_char,4,True,111.09375,/<story_scene>.*?(?:莎拉·凯瑞甘\ /\ 刀锋女王|莎拉·凯瑞甘|凯瑞甘|刀锋女王).*?<\/story_scene>/s,
 257,258,角色｜泰克斯·芬德利,True,False,True,after_char,4,True,108.0625,/<story_scene>.*?(?:泰克斯·芬德利|泰克斯).*?<\/story_scene>/s,
 258,259,角色｜夏娜,True,False,True,after_char,4,True,105.03125,/<story_scene>.*?(?:夏娜).*?<\/story_scene>/s,
 259,260,角色｜C.C.,True,False,True,after_char,4,True,102.0,/<story_scene>.*?(?:C\.C\.|C·C).*?<\/story_scene>/s,

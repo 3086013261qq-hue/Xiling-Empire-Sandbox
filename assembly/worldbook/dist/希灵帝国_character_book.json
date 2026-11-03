@@ -4136,7 +4136,7 @@
     {
       "id": 90,
       "keys": [
-        "/<story_scene>.*?(?:珊多拉·凯尔薇·尤拉西斯).*?<\\/story_scene>/s"
+        "/<story_scene>.*?(?:珊多拉·凯尔薇·尤拉西斯|珊多拉|珊多拉·凯尔薇).*?<\\/story_scene>/s"
       ],
       "secondary_keys": [
         "/<story_scene>.*?(?:能力|战斗|交战|攻击|防御|武器|装备|发动|施展|开火|权限|技能|法术|术式|火力|护盾|领域|力量).*?<\\/story_scene>/s"
@@ -4969,7 +4969,7 @@
     {
       "id": 107,
       "keys": [
-        "/<story_scene>.*?(?:希尔维亚·贝拉维拉).*?<\\/story_scene>/s"
+        "/<story_scene>.*?(?:希尔维亚·贝拉维拉|希尔维亚|贝拉维拉).*?<\\/story_scene>/s"
       ],
       "secondary_keys": [
         "/<story_scene>.*?(?:能力|战斗|交战|攻击|防御|武器|装备|发动|施展|开火|权限|技能|法术|术式|火力|护盾|领域|力量).*?<\\/story_scene>/s"
@@ -5606,7 +5606,7 @@
     {
       "id": 120,
       "keys": [
-        "/<story_scene>.*?(?:哈兰·克鲁瓦·莱瓦莱特).*?<\\/story_scene>/s"
+        "/<story_scene>.*?(?:哈兰·克鲁瓦·莱瓦莱特|哈兰).*?<\\/story_scene>/s"
       ],
       "secondary_keys": [
         "/<story_scene>.*?(?:能力|战斗|交战|攻击|防御|武器|装备|发动|施展|开火|权限|技能|法术|术式|火力|护盾|领域|力量).*?<\\/story_scene>/s"
@@ -5802,7 +5802,7 @@
     {
       "id": 124,
       "keys": [
-        "/<story_scene>.*?(?:深渊侧希灵·那位大人).*?<\\/story_scene>/s"
+        "/<story_scene>.*?(?:深渊侧希灵·那位大人|深渊侧希灵|深渊希灵).*?<\\/story_scene>/s"
       ],
       "secondary_keys": [
         "/<story_scene>.*?(?:能力|战斗|交战|攻击|防御|武器|装备|发动|施展|开火|权限|技能|法术|术式|火力|护盾|领域|力量).*?<\\/story_scene>/s"
@@ -8340,7 +8340,7 @@
     {
       "id": 176,
       "keys": [
-        "/<story_scene>.*?(?:珊多拉·凯尔薇·尤拉西斯).*?<\\/story_scene>/s"
+        "/<story_scene>.*?(?:珊多拉·凯尔薇·尤拉西斯|珊多拉|珊多拉·凯尔薇).*?<\\/story_scene>/s"
       ],
       "secondary_keys": [],
       "comment": "角色｜珊多拉·凯尔薇·尤拉西斯",
@@ -8528,7 +8528,7 @@
     {
       "id": 180,
       "keys": [
-        "/<story_scene>.*?(?:潘多拉\\-zero).*?<\\/story_scene>/s"
+        "/<story_scene>.*?(?:潘多拉\\-zero|潘多拉).*?<\\/story_scene>/s"
       ],
       "secondary_keys": [],
       "comment": "角色｜潘多拉-zero",
@@ -9139,7 +9139,7 @@
     {
       "id": 193,
       "keys": [
-        "/<story_scene>.*?(?:希尔维亚\\ /\\ 贝拉维拉).*?<\\/story_scene>/s"
+        "/<story_scene>.*?(?:希尔维亚\\ /\\ 贝拉维拉|希尔维亚|贝拉维拉).*?<\\/story_scene>/s"
       ],
       "secondary_keys": [],
       "comment": "角色｜希尔维亚 / 贝拉维拉",
@@ -9609,7 +9609,7 @@
     {
       "id": 203,
       "keys": [
-        "/<story_scene>.*?(?:父神（星臣）).*?<\\/story_scene>/s"
+        "/<story_scene>.*?(?:父神（星臣）|父神|星臣).*?<\\/story_scene>/s"
       ],
       "secondary_keys": [],
       "comment": "角色｜父神（星臣）",
@@ -9703,7 +9703,7 @@
     {
       "id": 205,
       "keys": [
-        "/<story_scene>.*?(?:希拉（休伦神王）).*?<\\/story_scene>/s"
+        "/<story_scene>.*?(?:希拉（休伦神王）|希拉|休伦神王).*?<\\/story_scene>/s"
       ],
       "secondary_keys": [],
       "comment": "角色｜希拉（休伦神王）",
@@ -9750,7 +9750,7 @@
     {
       "id": 206,
       "keys": [
-        "/<story_scene>.*?(?:哈兰·克鲁瓦·莱瓦莱特).*?<\\/story_scene>/s"
+        "/<story_scene>.*?(?:哈兰·克鲁瓦·莱瓦莱特|哈兰).*?<\\/story_scene>/s"
       ],
       "secondary_keys": [],
       "comment": "角色｜哈兰·克鲁瓦·莱瓦莱特",
@@ -9938,7 +9938,7 @@
     {
       "id": 210,
       "keys": [
-        "/<story_scene>.*?(?:深渊侧希灵\\ /\\ “那位大人”).*?<\\/story_scene>/s"
+        "/<story_scene>.*?(?:深渊侧希灵\\ /\\ “那位大人”|深渊侧希灵|深渊希灵).*?<\\/story_scene>/s"
       ],
       "secondary_keys": [],
       "comment": "角色｜深渊侧希灵 / “那位大人”",
@@ -9985,7 +9985,7 @@
     {
       "id": 211,
       "keys": [
-        "/<story_scene>.*?(?:陈晓雪（晓雪）).*?<\\/story_scene>/s"
+        "/<story_scene>.*?(?:陈晓雪（晓雪）|陈晓雪|晓雪).*?<\\/story_scene>/s"
       ],
       "secondary_keys": [],
       "comment": "角色｜陈晓雪（晓雪）",
@@ -10079,7 +10079,7 @@
     {
       "id": 213,
       "keys": [
-        "/<story_scene>.*?(?:陈晓浅（晓浅）).*?<\\/story_scene>/s"
+        "/<story_scene>.*?(?:陈晓浅（晓浅）|陈晓浅|晓浅).*?<\\/story_scene>/s"
       ],
       "secondary_keys": [],
       "comment": "角色｜陈晓浅（晓浅）",
@@ -10173,7 +10173,7 @@
     {
       "id": 215,
       "keys": [
-        "/<story_scene>.*?(?:维嘉\\-0001（维嘉）).*?<\\/story_scene>/s"
+        "/<story_scene>.*?(?:维嘉\\-0001（维嘉）|维嘉\\-0001|维嘉0001|维嘉).*?<\\/story_scene>/s"
       ],
       "secondary_keys": [],
       "comment": "角色｜维嘉-0001（维嘉）",
@@ -10267,7 +10267,7 @@
     {
       "id": 217,
       "keys": [
-        "/<story_scene>.*?(?:安度瓦因·菲娜·奥维加·波普鲁斯·萨多恩凡尼迪·马萨维尔·兰罗兰拉·米奥尔嘉实·图伦索（常用名:菲娜）).*?<\\/story_scene>/s"
+        "/<story_scene>.*?(?:安度瓦因·菲娜·奥维加·波普鲁斯·萨多恩凡尼迪·马萨维尔·兰罗兰拉·米奥尔嘉实·图伦索（常用名:菲娜）|菲娜).*?<\\/story_scene>/s"
       ],
       "secondary_keys": [],
       "comment": "角色｜安度瓦因·菲娜·奥维加·波普鲁斯·萨多恩凡尼迪·马萨维尔·兰罗兰拉·米奥尔嘉实·图伦索（常用名:菲娜）",
@@ -10549,7 +10549,7 @@
     {
       "id": 223,
       "keys": [
-        "/<story_scene>.*?(?:吉尔伽美什（吉尔妹\\ /\\ 姬儿迦美氏）).*?<\\/story_scene>/s"
+        "/<story_scene>.*?(?:吉尔伽美什（吉尔妹\\ /\\ 姬儿迦美氏）|吉尔伽美什|吉尔妹|姬儿迦美氏).*?<\\/story_scene>/s"
       ],
       "secondary_keys": [],
       "comment": "角色｜吉尔伽美什（吉尔妹 / 姬儿迦美氏）",
@@ -10643,7 +10643,7 @@
     {
       "id": 225,
       "keys": [
-        "/<story_scene>.*?(?:雪华绮晶（小绮晶）).*?<\\/story_scene>/s"
+        "/<story_scene>.*?(?:雪华绮晶（小绮晶）|雪华绮晶|小绮晶).*?<\\/story_scene>/s"
       ],
       "secondary_keys": [],
       "comment": "角色｜雪华绮晶（小绮晶）",
@@ -10874,7 +10874,7 @@
     {
       "id": 230,
       "keys": [
-        "/<story_scene>.*?(?:菲丽丝（亚菲丽丝）).*?<\\/story_scene>/s"
+        "/<story_scene>.*?(?:菲丽丝（亚菲丽丝）|菲丽丝|亚菲丽丝).*?<\\/story_scene>/s"
       ],
       "secondary_keys": [],
       "comment": "角色｜菲丽丝（亚菲丽丝）",
@@ -11297,7 +11297,7 @@
     {
       "id": 239,
       "keys": [
-        "/<story_scene>.*?(?:伊利亚斯菲尔·冯·艾因兹贝伦（伊利亚）).*?<\\/story_scene>/s"
+        "/<story_scene>.*?(?:伊利亚斯菲尔·冯·艾因兹贝伦（伊利亚）|伊利亚|伊莉雅).*?<\\/story_scene>/s"
       ],
       "secondary_keys": [],
       "comment": "角色｜伊利亚斯菲尔·冯·艾因兹贝伦（伊利亚）",
@@ -11344,7 +11344,7 @@
     {
       "id": 240,
       "keys": [
-        "/<story_scene>.*?(?:Rider\\ /\\ 美杜莎).*?<\\/story_scene>/s"
+        "/<story_scene>.*?(?:Rider\\ /\\ 美杜莎|Rider|美杜莎).*?<\\/story_scene>/s"
       ],
       "secondary_keys": [],
       "comment": "角色｜Rider / 美杜莎",
@@ -11438,7 +11438,7 @@
     {
       "id": 242,
       "keys": [
-        "/<story_scene>.*?(?:Saber\\ /\\ 阿尔托利亚).*?<\\/story_scene>/s"
+        "/<story_scene>.*?(?:Saber\\ /\\ 阿尔托利亚|Saber|阿尔托利亚).*?<\\/story_scene>/s"
       ],
       "secondary_keys": [],
       "comment": "角色｜Saber / 阿尔托利亚",
@@ -11532,7 +11532,7 @@
     {
       "id": 244,
       "keys": [
-        "/<story_scene>.*?(?:吉安娜·普罗德摩尔).*?<\\/story_scene>/s"
+        "/<story_scene>.*?(?:吉安娜·普罗德摩尔|吉安娜).*?<\\/story_scene>/s"
       ],
       "secondary_keys": [],
       "comment": "角色｜吉安娜·普罗德摩尔",
@@ -11579,7 +11579,7 @@
     {
       "id": 245,
       "keys": [
-        "/<story_scene>.*?(?:希尔瓦娜斯·风行者).*?<\\/story_scene>/s"
+        "/<story_scene>.*?(?:希尔瓦娜斯·风行者|希尔瓦娜斯).*?<\\/story_scene>/s"
       ],
       "secondary_keys": [],
       "comment": "角色｜希尔瓦娜斯·风行者",
@@ -11908,7 +11908,7 @@
     {
       "id": 252,
       "keys": [
-        "/<story_scene>.*?(?:红A\\ /\\ Archer).*?<\\/story_scene>/s"
+        "/<story_scene>.*?(?:红A\\ /\\ Archer|红A|Archer|红色Archer).*?<\\/story_scene>/s"
       ],
       "secondary_keys": [],
       "comment": "角色｜红A / Archer",
@@ -11955,7 +11955,7 @@
     {
       "id": 253,
       "keys": [
-        "/<story_scene>.*?(?:美狄亚\\ /\\ Caster).*?<\\/story_scene>/s"
+        "/<story_scene>.*?(?:美狄亚\\ /\\ Caster|美狄亚|Caster).*?<\\/story_scene>/s"
       ],
       "secondary_keys": [],
       "comment": "角色｜美狄亚 / Caster",
@@ -12002,7 +12002,7 @@
     {
       "id": 254,
       "keys": [
-        "/<story_scene>.*?(?:海格力斯\\ /\\ Berserker).*?<\\/story_scene>/s"
+        "/<story_scene>.*?(?:海格力斯\\ /\\ Berserker|海格力斯|赫拉克勒斯|Berserker).*?<\\/story_scene>/s"
       ],
       "secondary_keys": [],
       "comment": "角色｜海格力斯 / Berserker",
@@ -12143,7 +12143,7 @@
     {
       "id": 257,
       "keys": [
-        "/<story_scene>.*?(?:莎拉·凯瑞甘\\ /\\ 刀锋女王).*?<\\/story_scene>/s"
+        "/<story_scene>.*?(?:莎拉·凯瑞甘\\ /\\ 刀锋女王|莎拉·凯瑞甘|凯瑞甘|刀锋女王).*?<\\/story_scene>/s"
       ],
       "secondary_keys": [],
       "comment": "角色｜莎拉·凯瑞甘 / 刀锋女王",
