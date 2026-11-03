@@ -1,6 +1,6 @@
-# 《希灵帝国》地点层候选目录 v1.1
+# 《希灵帝国》地点层候选目录 v1.2
 
-> 状态：**P0 SAMPLE PRODUCED / FULLSTACK FORMAT CONFIRMED / 16 P0 WAITING**  
+> 状态：**P0 PRODUCTION / 6 COMPLETE / 11 WAITING**  
 > 唯一原著源：`《希灵帝国》【精校】作者：远瞳.txt`  
 > 当前基线：设定层、84人物层、84能力层、13卷主线时间线全部冻结。
 
@@ -37,12 +37,12 @@
 
 P0用于长期日常、帝国核心运转、高位世界交互或贯穿全书的重要场景。
 
-1. K市
-2. 影子空间
-3. 影子城 — **SAMPLE COMPLETE / FORMAT PASS**
-4. 阿瓦隆
-5. 十五天区
-6. 帝国首府（首府世界 / 首府星作为同源称呼核对）
+1. K市 — **COMPLETE**
+2. 影子空间 — **COMPLETE**
+3. 影子城 — **COMPLETE**
+4. 阿瓦隆 — **COMPLETE**
+5. 十五天区 — **COMPLETE**
+6. 帝国首府 — **COMPLETE**
 7. 帝国上将号
 8. 时空管理局
 9. 天使之城
@@ -55,7 +55,17 @@ P0用于长期日常、帝国核心运转、高位世界交互或贯穿全书的
 16. 宁静核心
 17. 故乡世界 / 母星（正式生产时核对两者层级与别称关系，避免错误合并）
 
-`P0 STATUS: 1 SAMPLE COMPLETE / 16 WAITING USER CONFIRMATION`
+`P0 STATUS: 6 COMPLETE / 11 WAITING`
+
+本批QA：`qa/056_P0地点第一批五项原著核验与全栈QA_v1.0.md`
+
+### 首府层级已核定
+
+- `首府星`：具体星球概念；后期新帝国语境下指母星盖亚。
+- `影子城`：首府核心城市与主要公共生活区。
+- `影子空间`：首府主要父级人工世界及军政承载空间。
+- `帝国首府`：成熟期由核心城市、母星、影子空间、挂载区及交通/军政设施组成的复合首府体系。
+- `首府世界`：按原著具体章节语境读取，不再与“首府星”机械合并。
 
 ## 四、P1｜篇章级主舞台
 
@@ -137,6 +147,6 @@ P0用于长期日常、帝国核心运转、高位世界交互或贯穿全书的
 
 ## 八、下一步
 
-当前只完成P0样本“影子城”。其余16个P0保持未生产，等待用户确认该全栈原生样本后再继续。
+P0已完成6/17。下一批可继续从：帝国上将号、时空管理局、天使之城、深潜港开始。
 
-`STATUS: LOCATION FORMAT CONFIRMED / SHADOW CITY SAMPLE COMPLETE / NEXT=WAIT USER CONFIRMATION`
+`STATUS: P0=6/17 COMPLETE / FULLSTACK FORMAT LOCKED / P1-P2 NOT STARTED`
