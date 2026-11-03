@@ -366,10 +366,26 @@ def main() -> None:
         for i in range(len(ability_files))
     ]
     ability_semantic_regex = story_regex(ABILITY_SEMANTICS)
-    for path, order in zip(ability_files, ability_orders, strict=True):
-        content = read_text(path)
+    for ability_path, char_path, order in zip(ability_files, char_files, ability_orders, strict=True):
+        # 人物/能力文件按冻结编号一一对应；能力触发必须继承对应人物的完整 alias group。
+        if ability_path.parent.name != char_path.parent.name:
+            raise SystemExit(
+                f"ability-character group mismatch: {ability_path} vs {char_path}"
+            )
+        ability_idx = ability_path.name.split("_", 1)[0]
+        char_idx = char_path.name.split("_", 1)[0]
+        if ability_idx != char_idx:
+            raise SystemExit(
+                f"ability-character index mismatch: {ability_path.name} vs {char_path.name}"
+            )
+
+        content = read_text(ability_path)
         owner = ability_owner(content)
-        terms = aliases_for(owner, char_aliases)
+        char_name = character_name(read_text(char_path))
+        terms = uniq(
+            aliases_for(owner, char_aliases)
+            + aliases_for(char_name, char_aliases)
+        )
         add(
             comment=f"能力｜{owner}",
             content=content,
